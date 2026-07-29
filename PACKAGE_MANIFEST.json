@@ -1,7 +1,7 @@
 {
   "package": "QNLPBench-R Stage 8A scientific release",
   "manifest_scope": "All tracked publishable scientific-release files except this manifest and generated SHARE_WITH_SRINJOY delivery files",
-  "file_count": 3701,
+  "file_count": 3702,
   "files": [
     {
       "path": ".gitattributes",
@@ -17,6 +17,11 @@
       "path": ".gitignore",
       "size_bytes": 725,
       "sha256": "ea09b664105b480aff692a641874f0dd53d3326750572f79432e6db1d191ea20"
+    },
+    {
+      "path": ".zenodo.json",
+      "size_bytes": 1566,
+      "sha256": "1fcaeeada08753e48bf520c9ffa1b39e989cdba8a3b65d9e71b6534ebca40337"
     },
     {
       "path": "Dockerfile",
@@ -35,8 +40,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 4822,
-      "sha256": "de33643ae91aed480578ca25b831fe7bbcd82bbc496e83f786a723ca8dafd07e"
+      "size_bytes": 5238,
+      "sha256": "11ad43fcfb2c3497e5ac0a183102481f468d0ab40c7eed6b065eb6cd1b8166ff"
     },
     {
       "path": "configs/stage6d_classical.yaml",
