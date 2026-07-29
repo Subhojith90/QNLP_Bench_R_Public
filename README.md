@@ -97,6 +97,15 @@ Historical Stage 6D, Stage 6E, and Stage 7F archives are deposited separately as
 immutable archival assets; their registered hashes and role are documented in
 `docs/STAGE8A_HISTORICAL_ARTIFACT_DEPOSITION.md`.
 
+## Citation and archive
+
+The citable Zenodo concept DOI for all versions of this software release is
+[`10.5281/zenodo.21670284`](https://doi.org/10.5281/zenodo.21670284). Creator
+metadata is defined in `.zenodo.json` in the manuscript author order:
+Subhojit Halder, Srinjoy Ganguly, and Shalini Devendrababu. Version-specific
+DOIs and verified release assets are linked from the corresponding GitHub
+release pages.
+
 ## Claim boundary
 
 The results support a descriptive trainability diagnostic for the simulated QFCs
