@@ -1,0 +1,87 @@
+[
+    {
+        "Id": "sha256:483dc2e82072826e651262cde68f1ee0ff6d9de302803ceba624b856bf11fbc2",
+        "RepoTags": [
+            "qnlpbench-r:stage8a"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2026-07-28T12:42:53.952666878Z",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+                "PYTHON_VERSION=3.12.7",
+                "PYTHON_SHA256=24887b92e2afd4a2ac602419ad4b596372f67ac9b077190f459aba390faf5550",
+                "PYTHONUNBUFFERED=1",
+                "PYTHONDONTWRITEBYTECODE=1",
+                "PYTHONHASHSEED=0",
+                "MPLBACKEND=Agg",
+                "MPLCONFIGDIR=/tmp/matplotlib",
+                "OMP_NUM_THREADS=1",
+                "OPENBLAS_NUM_THREADS=1",
+                "MKL_NUM_THREADS=1",
+                "NUMEXPR_NUM_THREADS=1",
+                "VECLIB_MAXIMUM_THREADS=1"
+            ],
+            "Cmd": [
+                "bash",
+                "scripts/run_stage8a_smoke.sh"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/work",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.base.digest": "sha256:60d9996b6a8a3689d36db740b49f4327be3be09a21122bd02fb8895abb38b50d",
+                "org.opencontainers.image.base.name": "python:3.12.7-slim-bookworm",
+                "org.opencontainers.image.description": "Normative CPU environment for the independent seed-11 replay",
+                "org.opencontainers.image.title": "QNLPBench-R Stage 8A exact-lock environment"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 5795042926,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/j4e6k624kawyx57nonrc9gzmn/diff:/var/lib/docker/overlay2/j5ycqr64upyh98d2znlqlsmyd/diff:/var/lib/docker/overlay2/4c5kmalgd0l96v5eh8x0or4ey/diff:/var/lib/docker/overlay2/6amr5p3mvny0xkd76rt7fu776/diff:/var/lib/docker/overlay2/f6140a96e7a1999c9cbe49824e7a5ff314b95f2e1646810a313736406f51c8fd/diff:/var/lib/docker/overlay2/5e952739a291c25565d2148586ce8db7fa3342b85f17e9619664f3d57f88290b/diff:/var/lib/docker/overlay2/c7067a57626f785bfffab92d67bce73e4f58e14daab11e9b1d8f29f0044f39b3/diff:/var/lib/docker/overlay2/c3e76b512d36222554fcf881cf15b665da5ac72b4d747b6033a354b3ef4b79ed/diff",
+                "MergedDir": "/var/lib/docker/overlay2/9rt4tg8fjvscvbg5dtxey3utl/merged",
+                "UpperDir": "/var/lib/docker/overlay2/9rt4tg8fjvscvbg5dtxey3utl/diff",
+                "WorkDir": "/var/lib/docker/overlay2/9rt4tg8fjvscvbg5dtxey3utl/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:c0f1022b22a9b36851b358f44e5475e39d166e71a8073cf53c894a299239b1c5",
+                "sha256:8e6dac73b295005c7c1f4f9586c381b1ea55d867f73d97882cfcee7c7dd20a5b",
+                "sha256:f8e017cbad7ddf98ac8031732b5071761aebcc8c68001ca077e2dc72d461448e",
+                "sha256:bcb1fd95c1b22bd1775eca72552752cfd3bb81d02a4200d3bc239d9a141098eb",
+                "sha256:d9b91920d8dff8a0ab7697b4f7b22be2340433b530550483c5479e0c0065c08d",
+                "sha256:ace2394947bda9589b192102058785b9f8d3b683639ffe6a8366343927385bd2",
+                "sha256:8f74ebf4f9623a6dfaf37783854c17cdccf6a67b4da56c434da077ea54a273db",
+                "sha256:4f1c8a7a425f8e9fca347036bb1a8810d3d94fc2b7fcb4148b0f24abd77a3693",
+                "sha256:e80a1f776f5173e1b364c3e6a5232de2c64ee74f2b16a405648e4345d15c954f"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-07-28T12:43:11.140311405Z"
+        }
+    }
+]

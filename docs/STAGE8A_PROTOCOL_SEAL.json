@@ -1,0 +1,13 @@
+{
+  "sealed_at_utc": "2026-07-23T07:00:15Z",
+  "status": "frozen_before_stage8a_result_inspection",
+  "files": {
+    "configs/stage8a.yaml": "f8ad5af9cfbcb54de774fa81bf69886694d159b8fd00aa9202d7b5c1dc7da789",
+    "docs/STAGE8A_FROZEN_PROTOCOL.md": "cb2dd27a7243731fcc54a9214455965bd3d692e602f1241c39f7c4f22f51e181"
+  },
+  "frozen_inputs": {
+    "stage6d_replication_zip": "fc71c84c5a3080033b30cb1f0e43fcee4aa4a5a63e6eaec185e9c10e071c92e9",
+    "stage6e_learned_kernel_zip": "fd60a81310645260ff127540aac409859167c4e5ccb47d42f9bd55064d9234e5",
+    "stage7f_supervisor_package_zip": "63138564e490a410f30e78de8552b14d2384baadd40f9b55a2664714e509184d"
+  }
+}

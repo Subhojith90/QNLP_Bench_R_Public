@@ -1,0 +1,17 @@
+base_config: configs/stage6d_replication_base.yaml
+stage_label: Stage 6D - Ten-Seed Pre-Registered Selected QFC Topology Replication
+experiment: {stage_prefix: qnlpbench_r_stage6d_topology, run_group: stage6d_topology}
+output:
+  results_dir: results/stage6d/runs/topology
+  generated_config_dir: results/stage6d/configs/topology
+  manifest_path: results/stage6d/manifests/topology_manifest.json
+feature_sets:
+  - {name: latent_primitive_sequence, feature_set: primitive_slot_sequence, intended_strict: true, description: Calibrated latent d4 margin 0.10 primitive-input representation.}
+models:
+  - {name: qfc_random_01, type: grammar_structured_quantum_feature, n_qubits: 6, n_layers: 2, structured_entanglement: random_fixed_01, data_reuploading: true}
+  - {name: qfc_ring, type: grammar_structured_quantum_feature, n_qubits: 6, n_layers: 2, structured_entanglement: ring, data_reuploading: true}
+  - {name: qfc_all_to_all, type: grammar_structured_quantum_feature, n_qubits: 6, n_layers: 2, structured_entanglement: all_to_all, data_reuploading: true}
+  - {name: qfc_linear_chain, type: grammar_structured_quantum_feature, n_qubits: 6, n_layers: 2, structured_entanglement: generic_linear, data_reuploading: true}
+  - {name: qfc_grammar, type: grammar_structured_quantum_feature, n_qubits: 6, n_layers: 2, structured_entanglement: grammar, data_reuploading: true}
+  - {name: qfc_no_entanglement, type: grammar_structured_quantum_feature, n_qubits: 6, n_layers: 2, structured_entanglement: none, data_reuploading: true}
+  - {name: qfc_random_01_random_label, type: grammar_structured_quantum_feature, n_qubits: 6, n_layers: 2, structured_entanglement: random_fixed_01, data_reuploading: true, random_label_training: true}

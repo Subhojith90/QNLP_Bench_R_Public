@@ -1,0 +1,9 @@
+{
+  "analysis": "focused_kernel_diagnostics",
+  "condition_floor": 1e-12,
+  "cross_kernel_sha256": "d859aa88438171465884d83cab1bd5a3c965c5dd6fe1ed7f7e5264980d39f987",
+  "eigenspectra_sha256": "b82b5156813d6e144b405e0d0f7889e9e2411069f6c76569f05ece2d5554c525",
+  "eigenvalue_tolerance": 1e-10,
+  "seed_level_sha256": "42d467a3ac19783c7e4da505345f4856ff62c26cf7ff10f978adf3662a6f7b6d",
+  "stage": "8A"
+}

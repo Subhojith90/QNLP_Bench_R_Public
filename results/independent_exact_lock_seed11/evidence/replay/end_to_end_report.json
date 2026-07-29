@@ -1,0 +1,27 @@
+{
+  "dataset_bytewise_hash_match": false,
+  "dataset_identity_gate_status": "pass",
+  "first_mlp_history_divergence_at_1e-12": {
+    "absolute_difference": 2.6711711176297115e-08,
+    "column": "train_loss",
+    "epoch": 2,
+    "expected": 0.603543821014004,
+    "observed": 0.6035437943022928
+  },
+  "frozen_dataset_sha256": "9a81a615a82537d3fa492c3abe001b0723ed2dd696ada0fdda9e9ca45b5ff80b",
+  "index_hashes": {
+    "ood_composition": "c32a83a37e7f85fd565c624de22cae4baf16b14003e6be1db8dc03fe8f3e647a",
+    "ood_depth": "6e6962bc1363a0580f8b27ea4af9757be193afd2034121b461c4fb6ba22d2435",
+    "test": "43252ae8a3c832f1622ac11d6376431adbe596b98bb9741c6569ba9fe17e7317",
+    "train": "aaec90a46610d90bfabab11cf6633ee104837d370abd76a62ff71239a79f801a",
+    "val": "d0f687e1b7d879d1152cb769303bb19024d67fbf0a0bb90fa460463ce1f98335"
+  },
+  "learned_selection_match": false,
+  "maximum_absolute_metric_error": 0.011011011011010985,
+  "runtime_seconds": 24.542056161999994,
+  "seed": 11,
+  "selected_tensor_train_bond_dimension": 16,
+  "stage": "8A",
+  "status": "fail",
+  "tolerance": 1e-12
+}

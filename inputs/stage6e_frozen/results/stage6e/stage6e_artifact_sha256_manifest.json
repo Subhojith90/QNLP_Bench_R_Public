@@ -1,0 +1,55 @@
+{
+  "stage": "Stage 6E",
+  "files": [
+    {
+      "path": "figures/stage6e_qfc_minus_learned_kernel_delta.pdf",
+      "sha256": "c9e8e015acbe6ff6d065aae70d4e7a5e33991a1151be570a81f36241bf684803",
+      "bytes": 18510
+    },
+    {
+      "path": "figures/stage6e_qfc_minus_learned_kernel_delta.png",
+      "sha256": "6cd85807edbaab31247db41fbaa337ee82a04b786be0bdbd04ad814a6723f7fe",
+      "bytes": 64180
+    },
+    {
+      "path": "results/stage6e/stage6e_input_manifest.json",
+      "sha256": "8854c3ba044df38c1854e0afc36f07a189c1264015f9df394bda4c011a74c3e4",
+      "bytes": 309
+    },
+    {
+      "path": "results/stage6e/stage6e_kernel_classifier_long.csv",
+      "sha256": "85426de554fb235da284c9f105447de6988c0c7132047a74c949549f68fe8db8",
+      "bytes": 31748
+    },
+    {
+      "path": "results/stage6e/stage6e_kernel_selection_candidates.csv",
+      "sha256": "6ed424b90d2128a5089e4d389c4526f132133f42006bd7c07ea05ebd05e9cb5d",
+      "bytes": 106565
+    },
+    {
+      "path": "results/stage6e/stage6e_learned_kernel_challenge_summary.csv",
+      "sha256": "4e5da4df086010133f8ce80e4870cd5f0b6c51d3f9a531f4ccb49deb48788832",
+      "bytes": 2312
+    },
+    {
+      "path": "results/stage6e/stage6e_manifest.json",
+      "sha256": "df10c3ffa90a011d63aaac472d4785aafa7e1411c2ddf60425335e98b32a45b1",
+      "bytes": 771
+    },
+    {
+      "path": "results/stage6e/stage6e_paired_kernel_deltas_by_cap.csv",
+      "sha256": "e13efee8ffd29445c264dd103a3b2f90138d7a15d4567b0cf2ed1478da0b2c37",
+      "bytes": 14349
+    },
+    {
+      "path": "results/stage6e/stage6e_sampled_indices.csv",
+      "sha256": "c21cb7389acd1eee067c25ef1e6cda220f10abbe31017c76cae12ddf62fb31b1",
+      "bytes": 122557
+    },
+    {
+      "path": "results/stage6e/stage6e_seed_averaged_paired_deltas.csv",
+      "sha256": "43f3fb0e71ce94912c4e2b3e946e8d86ff6f4b6f079836e9086259ff13451270",
+      "bytes": 11518
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "all_models_share_saved_indices": true,
+  "analysis": "index_matched_comparator_escalation",
+  "config": "configs/stage8a.yaml",
+  "output_hashes": {
+    "stage8a_depth_stratified_seed_level.csv": "b4eba2b3af45c0262f02bd3ac25ad0b80f1ccdf162c9a80d296b448032836502",
+    "stage8a_depth_stratified_summary.csv": "16da9c708422b2c2d401d913ce93f0e196bcf529eeba63fc1af24af66cc3252e",
+    "stage8a_index_manifest.csv": "084929b2dc26c5af12fe54638d8fa15ad7e294441a7a4a3a996aeeed4c855129",
+    "stage8a_index_matched_seed_level.csv": "c9d08903823b489d3fffe0badcf3a6f38726de29b6cfb1ed57ebb59912a60a1c",
+    "stage8a_index_matched_summary.csv": "b149133366bcef56dd13d860dcd44fa0e7df1afacc820837406d33a9d993f2a3",
+    "stage8a_validation_selection_candidates.csv": "0f81f9c8cea4aedf540f5ff5be3b4d2ba76d9fb93c18941bdebc3987bc1ccdec"
+  },
+  "sample_cap": 128,
+  "seeds": [
+    11
+  ],
+  "stage": "8A",
+  "topologies": [
+    "qfc_all_to_all",
+    "qfc_random_01"
+  ]
+}

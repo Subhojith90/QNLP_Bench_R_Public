@@ -1,0 +1,11 @@
+{
+  "all_pairs_hash_verified": true,
+  "analysis": "exact_initialization_matched_controls",
+  "checkpoint_manifest_sha256": "b55bf517acd87b9c346afee02058a765d40640c1c52419fb933ce91ef87309f3",
+  "one_to_one_pairs": 2,
+  "result_sha256": "4743f023eae785850dbf1988b903cd41bbd5c49e3812356fb16d055e9606e5ca",
+  "seeds": [
+    11
+  ],
+  "stage": "8A"
+}

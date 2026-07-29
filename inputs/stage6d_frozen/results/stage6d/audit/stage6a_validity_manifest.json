@@ -1,0 +1,14 @@
+{
+  "config": "configs/stage6d_validity.yaml",
+  "failures": [],
+  "gate_pass": true,
+  "hidden_semantics_not_model_visible": true,
+  "model_visible_policy": "primitive_observable_inputs_only",
+  "n_seeds": 10,
+  "outputs": [
+    "stage6a_split_validity.csv",
+    "stage6a_probe_results.csv",
+    "stage6a_probe_summary.csv"
+  ],
+  "stage": "Stage 6A - Latent Semantic Generator Validity Gate"
+}

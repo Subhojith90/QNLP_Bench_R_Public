@@ -1,0 +1,4 @@
+split,primary_classical_comparator,comparator_mean,selection_rule
+test,extra_trees_500,0.8095029218360033,highest pre-registered classical mean over ten seeds
+ood_composition,sequence_mlp_256x3,0.6142113785330414,highest pre-registered classical mean over ten seeds
+ood_depth,extra_trees_500,0.8553276933506775,highest pre-registered classical mean over ten seeds

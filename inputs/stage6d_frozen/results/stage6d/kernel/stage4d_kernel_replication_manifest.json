@@ -1,0 +1,13 @@
+{
+  "claim_boundary": "Exploratory strict-control replication only; no quantum advantage claim.",
+  "config": "configs/stage6d_kernel.yaml",
+  "n_cap_combinations": 4,
+  "n_failures": 0,
+  "n_qfc_runs": 70,
+  "n_rows": 2520,
+  "n_sample_index_rows": 596960,
+  "results_dirs": [
+    "results/stage6d/runs/topology"
+  ],
+  "stage": "Stage 6D - Ten-Seed Latent Semantic Predictive Quantum-Kernel Replication"
+}

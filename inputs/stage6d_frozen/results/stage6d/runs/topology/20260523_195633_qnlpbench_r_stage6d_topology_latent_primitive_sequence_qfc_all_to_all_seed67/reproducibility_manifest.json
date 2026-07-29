@@ -1,0 +1,12 @@
+{
+  "project": "QNLPBench-R",
+  "version": "0.1.0",
+  "purpose": "Robustness, generalization, and quantum-metric benchmarking for compositional QNLP experiments.",
+  "core_claim_policy": "No quantum advantage or model superiority claim is valid without multi-seed comparisons, strong baselines, leakage-free splits, and saved reproducibility metadata.",
+  "required_run_artifacts": ["config.yaml", "metrics.json", "metrics.csv", "run_metadata.json", "experiment.log", "warnings.txt", "history.csv", "environment_snapshot.txt", "data/dataset_manifest.json"],
+  "random_seed_policy": "Every run stores the seed and uses deterministic seeding for Python, NumPy, and PyTorch where feasible.",
+  "data_policy": "Synthetic data are generated from configuration and seed; external CSV data must have explicit split columns to reduce leakage risk.",
+  "reporting_policy": "Report raw per-seed outputs and aggregated mean/std/95% CI. Do not cherry-pick best seeds.",
+  "hardware_policy": "Core runs must not require paid quantum hardware. CUDA acceleration is optional and must fall back to CPU for smoke tests.",
+  "limitations": ["Initial release uses controlled synthetic compositional tasks, not full real-world NLP datasets.", "Quantum-feature circuit is a small differentiable simulator, not evidence of quantum advantage.", "Prediction-level noise approximations are diagnostics and should not be confused with full hardware noise simulation."]
+}

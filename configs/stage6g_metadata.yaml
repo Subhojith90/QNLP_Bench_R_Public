@@ -1,0 +1,17 @@
+stage: stage6g
+name: Artifact Metadata Correction, Public Reproducibility Hardening, and Negative-Results Outline
+new_performance_experiment: false
+require_full_trajectory: true
+manifest_policy:
+  internal: hashes all payload files inside final ZIP except manifest files themselves
+  external: hashes sealed delivery ZIP, source ZIP, and later final PDF outside the ZIP
+claim_boundary:
+  allow:
+    - QFC training changes its own state-overlap kernel geometry.
+    - The Stage 6D generic-kernel diagnostic does not survive Stage 6E learned-classical representation comparison.
+    - QNLPBench-R supports an audit-first controlled negative-results methodology framing.
+  forbid:
+    - quantum advantage
+    - QFC superiority over learned classical representations
+    - hardware relevance
+    - real-language generalisation

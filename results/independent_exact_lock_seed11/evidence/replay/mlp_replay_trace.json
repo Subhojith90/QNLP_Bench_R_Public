@@ -1,0 +1,49 @@
+{
+  "causal_trace_file": "mlp_portability_diagnosis.json",
+  "expected_history_rows": 56,
+  "expected_learned_candidate": {
+    "C": 1.0,
+    "kernel_name": "linear",
+    "source": "mlp_hidden"
+  },
+  "first_history_divergence_at_1e-12": {
+    "absolute_difference": 2.6711711176297115e-08,
+    "column": "train_loss",
+    "epoch": 2,
+    "expected": 0.603543821014004,
+    "observed": 0.6035437943022928
+  },
+  "history_maximum_absolute_difference_by_column": {
+    "epoch": 0.0,
+    "gradient_norm": 0.9958045791911179,
+    "train_loss": 0.008556938192082754,
+    "val_accuracy": 0.014814814814814836,
+    "val_balanced_accuracy": 0.015384615384615441,
+    "val_brier": 0.03094788960159095,
+    "val_ece_10": 0.02295352639502385,
+    "val_macro_f1": 0.014863000048499275,
+    "val_macro_precision": 0.01633852258852264,
+    "val_macro_recall": 0.015384615384615441,
+    "val_nll": 0.15816398290338252,
+    "val_roc_auc": 0.008543956043956191
+  },
+  "initial_state_sha256": "e6b1af8834687f965dea156ccb1cf03be67b6f85086c1f642f0ae7bfbcf9b158",
+  "learned_selection_match": false,
+  "observed_history_rows": 57,
+  "selected_learned_candidate": {
+    "C": 10.0,
+    "c_order": 2,
+    "candidate_order": 5,
+    "kernel_family": "linear",
+    "kernel_name": "linear",
+    "parameters_json": "{}",
+    "source": "mlp_hidden",
+    "validation_balanced_accuracy": 0.844574780058651
+  },
+  "selection_candidate_count": 76,
+  "train_info": {
+    "best_epoch": 45,
+    "best_val_balanced_accuracy": 0.8052197802197802
+  },
+  "trained_state_sha256": "e05fadb938b029feb28f4a8fa65cf0dd2c2e50e0e5ff15c5afb2b52f42b1801e"
+}

@@ -1,0 +1,61 @@
+{
+  "config_path": "results/stage6d/configs/classical/latent_primitive_sequence.yaml",
+  "cuda_memory_summary_end": {
+    "cuda_available": false
+  },
+  "dataset_summary": {
+    "feature_dim": 49,
+    "label_column": "label",
+    "n_ood": 360,
+    "n_ood_composition": 180,
+    "n_ood_depth": 180,
+    "n_test": 360,
+    "n_train": 810,
+    "n_val": 270
+  },
+  "device_info": {
+    "cpu_count": 8,
+    "cuda_available": false,
+    "device": "cpu",
+    "gpu_name": null,
+    "gpu_total_memory_gb": null,
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "python_version": "3.12.7",
+    "ram_gb": 16.0,
+    "torch_version": "2.12.0"
+  },
+  "elapsed_seconds": 1.2597060420084745,
+  "environment": {
+    "command": "scripts/run_feature_ablation.py --config configs/stage6d_classical.yaml",
+    "hostname": "redacted-public-host",
+    "packages": {
+      "matplotlib": "3.10.9",
+      "numpy": "2.4.6",
+      "pandas": "3.0.3",
+      "sklearn": "1.8.0",
+      "torch": "2.12.0",
+      "yaml": "6.0.3"
+    },
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]"
+  },
+  "experiment_name": "qnlpbench_r_stage6d_classical_latent_primitive_sequence",
+  "model_name": "extra_trees_500",
+  "model_summary": {
+    "direct_label_evaluation": true,
+    "input_dim": 49,
+    "model_type": "extra_trees",
+    "parameter_count": 0,
+    "sklearn_baseline": true
+  },
+  "model_type": "extra_trees",
+  "project_version": "0.1.0",
+  "run_group": "stage6d_classical",
+  "seed": 23,
+  "start_time": "2026-05-23T19:51:55.522544",
+  "status": "completed",
+  "train_info": {
+    "best_epoch": 0,
+    "best_val_accuracy": 0.8407407407407408
+  }
+}

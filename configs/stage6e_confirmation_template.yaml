@@ -1,0 +1,27 @@
+stage_label: Stage 6E-B - Conditional Larger-Cap Learned Representation Confirmation
+stage6d_results_dir: results/stage6d/runs
+output_dir: results/stage6e_confirmation
+figures_dir: figures
+feature_set: latent_primitive_sequence
+splits: [test, ood_composition, ood_depth]
+# Populate only with Stage 6E-A survivors before running this confirmation.
+qfc_models: [qfc_all_to_all, qfc_random_01]
+mlp_model: sequence_mlp_256x3
+train_sample_caps: [256, full]
+eval_sample_caps: [256, full]
+kernel_sample_strategy: stratified
+c_values: [0.1, 1.0, 10.0, 100.0]
+classical_kernel_families:
+  raw: [linear, rbf, poly]
+  mlp_hidden: [linear, cosine, rbf]
+  mlp_logits: [linear, rbf]
+  polynomial_interactions: [linear]
+  random_fourier: [linear]
+  tree_proximity: [extra_trees]
+gamma_multipliers: [0.5, 1.0, 2.0]
+poly_degrees: [2]
+rff_components: [128]
+tree_estimators: 100
+bootstrap_resamples: 10000
+random_seed: 6113
+claim_boundary: Conditional confirmation only; run only if Stage 6E-A retains a positive paired QFC delta against learned classical representations.

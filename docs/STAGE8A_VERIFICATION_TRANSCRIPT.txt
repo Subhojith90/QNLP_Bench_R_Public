@@ -1,0 +1,70 @@
+Stage 8A verification record
+============================
+
+Updated: 2026-07-29
+Working tree: Release Package 8A
+
+Full automated test command:
+PYTHONDONTWRITEBYTECODE=1 PYTEST_ADDOPTS='-p no:cacheprovider' MPLBACKEND=Agg MPLCONFIGDIR=/tmp/qnlpbench-mpl PYTHONPATH=src:.:scripts python -m pytest tests -q
+
+Result:
+36 tests passed
+Exit code: 0
+
+Smoke workflow command:
+MPLBACKEND=Agg MPLCONFIGDIR=/tmp/qnlpbench-mpl bash scripts/run_stage8a_smoke.sh
+
+Smoke workflow components:
+- one-seed index-matched comparator analysis: pass
+- one-seed exact-initialization controls: pass
+- one-seed tensor-train baseline: pass
+- kernel diagnostics: pass
+- Stage 8A scientific-strengthening tests: pass
+
+Exit code: 0
+
+Internal clean seed-11 reconstruction:
+- environment: macOS ARM64, Python 3.13.1, PyTorch 2.12.0
+- seed: 11
+- status: pass
+- registered numerical tolerance: 1e-12
+- maximum absolute discrepancy: 5.551115123125783e-17
+- numerical comparison: results/end_to_end_seed11/end_to_end_numerical_comparison.csv
+- report: results/end_to_end_seed11/end_to_end_report.json
+
+Independent cross-platform seed-11 replay:
+- environment: digest-pinned Ubuntu Linux x86-64 OCI, Python 3.12.7,
+  PyTorch 2.12.0+cu130
+- GitHub Actions run: 30359998043
+- container build: pass
+- automated tests: 36 passed
+- strict dataset-identity gate: pass
+- QFC and generic-kernel pathways: exact
+- tensor-train pathway: maximum absolute discrepancy 5.55e-17
+- learned MLP pathway: failed unchanged 1e-12 numerical gate
+- MLP initialization and complete minibatch order: exact
+- preserved PyTorch intra-op/inter-op thread counts: 1/2
+- current public-script thread hardening: 1/1, introduced after the preserved
+  replay
+- interpreter-start Python hash seed: 0; the recorded runtime value 32011 did
+  not reinitialize Python hash randomization
+- first divergence: epoch-2 training loss, absolute difference 2.67e-8
+- best epoch: 44 in the reference and 45 in the Linux replay
+- selected learned-kernel SVM C: 1 in the reference and 10 in the replay
+- maximum balanced-accuracy discrepancy: 0.011011011011010985
+- tolerance relaxation: none
+- ten-seed conclusion check: no QFC-minus-learned mean sign changed; maximum
+  aggregate learned-mean shift 0.001101
+- summary: docs/STAGE8A_INDEPENDENT_REPLAY_STATUS.md
+- authoritative evidence:
+  results/independent_exact_lock_seed11/stage8a-independent-replay-42202b13.zip
+
+The checks above verify the current registered Stage 8A analysis and source tree
+while disclosing that complete MLP retraining is not tolerance-exact across the
+preserved macOS ARM64 reference and Linux x86-64 verification runtimes. Because
+the preserved replay used PyTorch thread counts 1/2 and the final public script
+was later hardened to 1/1, the observed divergence is not attributed uniquely
+to processor architecture.
+
+They do not resolve author affiliations, ORCIDs, funding acknowledgements,
+contributor-role statements, repository deposition, or archive DOI assignment.

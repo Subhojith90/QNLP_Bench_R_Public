@@ -1,0 +1,5 @@
+base_config: configs/stage6d_replication_base.yaml
+stage_label: Stage 6D - Latent Regime Validity and Split Gate
+output_dir: results/stage6d/audit
+# The validity gate is intentionally split/policy focused; model evidence is produced by the registered replication runs.
+probe_models: []

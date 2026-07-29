@@ -1,0 +1,28 @@
+{
+  "analysis_configuration": {
+    "path": "configs/stage8a.yaml",
+    "sha256": "f8ad5af9cfbcb54de774fa81bf69886694d159b8fd00aa9202d7b5c1dc7da789"
+  },
+  "frozen_protocol": {
+    "path": "docs/STAGE8A_FROZEN_PROTOCOL.md",
+    "sha256": "cb2dd27a7243731fcc54a9214455965bd3d692e602f1241c39f7c4f22f51e181"
+  },
+  "protocol_amendment": {
+    "path": "docs/STAGE8A_PROTOCOL_AMENDMENT_001.md",
+    "sha256": "c223209883a8f7801dc14131a934d1fe306a814c1abedf5ec818f08a4292cd0f"
+  },
+  "protocol_seal": {
+    "path": "docs/STAGE8A_PROTOCOL_SEAL.json",
+    "sha256": "2125fd63f4ca9f53fd953ffffa2e13f58bdd9e67060d649a0b61e6fcbd39eedd"
+  },
+  "frozen_inputs": [
+    {
+      "filename": "QNLPBench_R_Stage6D_Replication_Output.zip",
+      "sha256": "fc71c84c5a3080033b30cb1f0e43fcee4aa4a5a63e6eaec185e9c10e071c92e9"
+    },
+    {
+      "filename": "QNLPBench_R_Stage6E_Learned_Kernel_Challenge_Output.zip",
+      "sha256": "fd60a81310645260ff127540aac409859167c4e5ccb47d42f9bd55064d9234e5"
+    }
+  ]
+}

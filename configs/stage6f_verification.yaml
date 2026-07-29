@@ -1,0 +1,15 @@
+stage: Stage 6F - Evidence Freezing, Artifact Bundling, Documentation Repair, and Framing Lock
+core_evidence_scope:
+  - QNLPBench_R_Stage6D_Replication_Output.zip
+  - QNLPBench_R_Stage6E_Learned_Kernel_Challenge_Output.zip
+optional_trajectory_evidence:
+  - QNLPBench_R_Stage5B_Pilot_Output.zip
+  - QNLPBench_R_Stage6AB_Calibration_Output.zip
+  - QNLPBench_R_Stage6_Latent_Quantum_Pilot_Output.zip
+source_releases:
+  - qnlpbench_r_code_refined_v14_stage5b_split_baseline_topology_audit.zip
+  - qnlpbench_r_code_refined_v15_stage6_latent_compositional_quantum_pilot.zip
+  - qnlpbench_r_code_refined_v16_stage6d_focused_replication.zip
+  - qnlpbench_r_code_refined_v17_stage6e_learned_kernel_challenge.zip
+reproduction_tolerance: 1.0e-10
+claim_boundary: audit-first methodology and controlled negative-results framing only

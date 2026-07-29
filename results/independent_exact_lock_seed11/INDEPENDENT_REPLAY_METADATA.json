@@ -1,0 +1,24 @@
+{
+  "source_commit": "42202b13a7f54a25e67d50d62649ff2b19600a67",
+  "workflow_run_id": 30359998043,
+  "workflow_job_id": 90277139211,
+  "artifact_id": 8688496689,
+  "artifact_name": "stage8a-independent-replay-42202b13a7f54a25e67d50d62649ff2b19600a67",
+  "artifact_sha256": "2ad8c13b7382c6789f009f7bee595d96b71209feac122e45f3a80011c8116587",
+  "artifact_size_bytes": 939679,
+  "container_build_status": "pass",
+  "automated_test_status": "pass",
+  "automated_test_count": 36,
+  "dataset_identity_gate_status": "pass",
+  "numerical_replay_status": "fail",
+  "first_divergence": {
+    "component": "learned MLP training history",
+    "epoch": 2,
+    "field": "train_loss",
+    "absolute_difference": 2.6711711176297115e-08
+  },
+  "initialization_exact_match": true,
+  "minibatch_order_exact_match": true,
+  "maximum_absolute_metric_error": 0.011011011011010985,
+  "decision": "diagnostic closure complete; numerical replay not passed"
+}

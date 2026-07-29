@@ -1,0 +1,27 @@
+{
+  "claim_boundary": "Run-integrity gate only; not scientific evidence.",
+  "pass": true,
+  "reports": [
+    {
+      "expected_unique_runs": 80,
+      "input_dir": "results/stage6d/runs/classical",
+      "missing_count": 0,
+      "n_duplicates": 0,
+      "observed_metric_dirs": 80,
+      "observed_unique_runs": 80,
+      "pass": true,
+      "source": "classical"
+    },
+    {
+      "expected_unique_runs": 70,
+      "input_dir": "results/stage6d/runs/topology",
+      "missing_count": 0,
+      "n_duplicates": 0,
+      "observed_metric_dirs": 70,
+      "observed_unique_runs": 70,
+      "pass": true,
+      "source": "topology"
+    }
+  ],
+  "stage": "Stage 6D - Focused Ten-Seed Replication"
+}

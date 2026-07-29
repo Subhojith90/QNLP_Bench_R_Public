@@ -1,0 +1,6 @@
+seed,split,count,class_0,class_1,sha256,path
+11,train,128,66,62,aaec90a46610d90bfabab11cf6633ee104837d370abd76a62ff71239a79f801a,results/smoke/index_matched/indices/seed_11/train.npy
+11,val,128,66,62,d0f687e1b7d879d1152cb769303bb19024d67fbf0a0bb90fa460463ce1f98335,results/smoke/index_matched/indices/seed_11/val.npy
+11,test,128,66,62,43252ae8a3c832f1622ac11d6376431adbe596b98bb9741c6569ba9fe17e7317,results/smoke/index_matched/indices/seed_11/test.npy
+11,ood_composition,128,65,63,c32a83a37e7f85fd565c624de22cae4baf16b14003e6be1db8dc03fe8f3e647a,results/smoke/index_matched/indices/seed_11/ood_composition.npy
+11,ood_depth,128,74,54,6e6962bc1363a0580f8b27ea4af9757be193afd2034121b461c4fb6ba22d2435,results/smoke/index_matched/indices/seed_11/ood_depth.npy

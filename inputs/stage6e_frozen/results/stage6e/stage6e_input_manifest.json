@@ -1,0 +1,6 @@
+{
+  "source_zip": "historical://QNLPBench_R_Stage6D_Replication_Output.zip",
+  "source_zip_sha256": "fc71c84c5a3080033b30cb1f0e43fcee4aa4a5a63e6eaec185e9c10e071c92e9",
+  "imported_path": "results/stage6d",
+  "stage6d_summary_present": true
+}

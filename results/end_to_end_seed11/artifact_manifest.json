@@ -1,0 +1,122 @@
+{
+  "command_transcript.log": {
+    "bytes": 19798,
+    "sha256": "4e16a44ea5e81455ce986a049c4203de1116d0c584619cc0f0c60d054a6e750d"
+  },
+  "end_to_end_numerical_comparison.csv": {
+    "bytes": 1678,
+    "sha256": "abaec974e4cd715b1097be2c96fef4f30488af9edddf7af5da76df91d34c1947"
+  },
+  "end_to_end_report.json": {
+    "bytes": 690,
+    "sha256": "3ee0c902789e0555d1950840c773c65892e45487d1ed84cdcf1cb2bef892bdbe"
+  },
+  "end_to_end_seed11_results.csv": {
+    "bytes": 802,
+    "sha256": "474aeb82abac1dbab0ff717b1f918835dd31dd208d0c8ce4768c91dcc5acbbc8"
+  },
+  "environment.json": {
+    "bytes": 313,
+    "sha256": "624f781871a0a6f4e44b6b2d0501026ac31006a0078a4195a677ef43564de7d6"
+  },
+  "failure.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "generated_dataset/data/dataset.csv": {
+    "bytes": 650792,
+    "sha256": "9a81a615a82537d3fa492c3abe001b0723ed2dd696ada0fdda9e9ca45b5ff80b"
+  },
+  "generated_dataset/data/dataset_manifest.json": {
+    "bytes": 5926,
+    "sha256": "de1f56f1dc1d710433bb7b32f2b72d1c676d2355587c922a78e42826b3172197"
+  },
+  "generated_dataset/data/preprocessor.json": {
+    "bytes": 3197,
+    "sha256": "075b318f44afc9ab7f63da46a54a01b302aa24c5dcffd8a23783e23e306813e1"
+  },
+  "indices/ood_composition.npy": {
+    "bytes": 1152,
+    "sha256": "c32a83a37e7f85fd565c624de22cae4baf16b14003e6be1db8dc03fe8f3e647a"
+  },
+  "indices/ood_depth.npy": {
+    "bytes": 1152,
+    "sha256": "6e6962bc1363a0580f8b27ea4af9757be193afd2034121b461c4fb6ba22d2435"
+  },
+  "indices/test.npy": {
+    "bytes": 1152,
+    "sha256": "43252ae8a3c832f1622ac11d6376431adbe596b98bb9741c6569ba9fe17e7317"
+  },
+  "indices/train.npy": {
+    "bytes": 1152,
+    "sha256": "aaec90a46610d90bfabab11cf6633ee104837d370abd76a62ff71239a79f801a"
+  },
+  "indices/val.npy": {
+    "bytes": 1152,
+    "sha256": "d0f687e1b7d879d1152cb769303bb19024d67fbf0a0bb90fa460463ce1f98335"
+  },
+  "models/qfc_all_to_all/history.csv": {
+    "bytes": 11993,
+    "sha256": "352d7794cdac1745337c67a05de43edd4cec0ce494274ec867ad11b9f325f2c1"
+  },
+  "models/qfc_all_to_all/model_best.pt": {
+    "bytes": 7861,
+    "sha256": "86259bd7181bdc8f537d58384f373329991fe32da13e69647ed72a9f4e7f1681"
+  },
+  "models/qfc_random_01/history.csv": {
+    "bytes": 13981,
+    "sha256": "cbfd8d0f8d6883081b5e355f3f8c5c09eabd51813151e3bff9ec43466ec40dfb"
+  },
+  "models/qfc_random_01/model_best.pt": {
+    "bytes": 7861,
+    "sha256": "5c4cb1aabadd315485c47846fbba23766157b96d50644cc114bca03d05cd718b"
+  },
+  "models/sequence_mlp_256x3/history.csv": {
+    "bytes": 12052,
+    "sha256": "0b68cf5fdbf1c1121807b670a52594a1f1ffca7874da92ff70e0ce9f4e274fc5"
+  },
+  "models/sequence_mlp_256x3/model_best.pt": {
+    "bytes": 583351,
+    "sha256": "2dfa7c35ae44bcaac3cad0bf23632cc04554d48fea4abe1fb4c093fc9e739c75"
+  },
+  "models/tensor_train_bond_16/history.csv": {
+    "bytes": 4380,
+    "sha256": "7bb4009346640ad43a5c551d17533178a2b8fb1631839e05f6692ae12eedf6fe"
+  },
+  "models/tensor_train_bond_16/model_best.pt": {
+    "bytes": 53941,
+    "sha256": "476c1580fbb9117c2d6d02312b3ad773e0c1b5e762e8ef929f67708c9a25fcaa"
+  },
+  "models/tensor_train_bond_2/history.csv": {
+    "bytes": 4388,
+    "sha256": "bdf9997c09e0dd18b9cf5c18ac965e4fe252de1380f36e629fb682438c5d7283"
+  },
+  "models/tensor_train_bond_2/model_best.pt": {
+    "bytes": 4661,
+    "sha256": "42fa42c9b8e212c44b7be6cb11ff8bb0c7b4d8af1319a9ee3e6f2c53b2bf2f11"
+  },
+  "models/tensor_train_bond_32/history.csv": {
+    "bytes": 5977,
+    "sha256": "73059e35ab1c527a9a26b5df28573903128d13a3501ec356bcb015c234a2b8df"
+  },
+  "models/tensor_train_bond_32/model_best.pt": {
+    "bytes": 202101,
+    "sha256": "e42b639738eb94568a55460d0d059119cb639f906c80c0f2d04e628da028a3aa"
+  },
+  "models/tensor_train_bond_4/history.csv": {
+    "bytes": 5234,
+    "sha256": "e0c52990c9d22cf6d7a3696188e31c540e6e81a146900d97812e4cbecbe8c665"
+  },
+  "models/tensor_train_bond_4/model_best.pt": {
+    "bytes": 7285,
+    "sha256": "d3f6a8b3c6cb028f6166f56af11fc1bddc6516f9c22e32d056fc22f397fdff8b"
+  },
+  "models/tensor_train_bond_8/history.csv": {
+    "bytes": 4620,
+    "sha256": "76e2f12bbee5d59abad7c1118be337210f26e6f0287bf7c8e4f0c3bd0ac3bd11"
+  },
+  "models/tensor_train_bond_8/model_best.pt": {
+    "bytes": 16693,
+    "sha256": "fac1b8dc37d833f7f23daad7f80ab6e94b8e65dc484d126fdfd985baa97e3815"
+  }
+}

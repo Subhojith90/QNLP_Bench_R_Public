@@ -1,0 +1,17 @@
+{
+  "dataset_hash_match": true,
+  "index_hashes": {
+    "ood_composition": "c32a83a37e7f85fd565c624de22cae4baf16b14003e6be1db8dc03fe8f3e647a",
+    "ood_depth": "6e6962bc1363a0580f8b27ea4af9757be193afd2034121b461c4fb6ba22d2435",
+    "test": "43252ae8a3c832f1622ac11d6376431adbe596b98bb9741c6569ba9fe17e7317",
+    "train": "aaec90a46610d90bfabab11cf6633ee104837d370abd76a62ff71239a79f801a",
+    "val": "d0f687e1b7d879d1152cb769303bb19024d67fbf0a0bb90fa460463ce1f98335"
+  },
+  "maximum_absolute_metric_error": 5.551115123125783e-17,
+  "runtime_seconds": 26.577731124998536,
+  "seed": 11,
+  "selected_tensor_train_bond_dimension": 16,
+  "stage": "8A",
+  "status": "pass",
+  "tolerance": 1e-12
+}

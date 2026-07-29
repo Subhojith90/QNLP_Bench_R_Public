@@ -1,0 +1,254 @@
+{
+  "audit_only_metadata_columns": [
+    "audit_latent_score",
+    "audit_latent_margin",
+    "audit_semantic_seed",
+    "clean_label",
+    "subject_id",
+    "verb_id",
+    "object_id",
+    "negation",
+    "modifier_count",
+    "grammar_depth",
+    "is_heldout_composition",
+    "is_high_depth"
+  ],
+  "dataset_name": "latent_compositional_semantics",
+  "feature_set": "primitive_slot_sequence",
+  "generation_report": {
+    "content_hash": "17e2c54d615c20f7e3f7e5e16267f184e8410b685153f03ce80557029e672dbd",
+    "duplicate_text_count": 0,
+    "exact_duplicate_overlap": {
+      "ood_composition-ood_depth": 0,
+      "ood_composition-test": 0,
+      "ood_composition-train": 0,
+      "ood_composition-val": 0,
+      "ood_depth-test": 0,
+      "ood_depth-train": 0,
+      "ood_depth-val": 0,
+      "test-train": 0,
+      "test-val": 0,
+      "train-val": 0
+    },
+    "feature_columns": [
+      "ps_alice",
+      "ps_bob",
+      "ps_chemist",
+      "ps_robot",
+      "ps_doctor",
+      "ps_student",
+      "ps_judge",
+      "ps_engineer",
+      "pv_trusts",
+      "pv_doubts",
+      "pv_examines",
+      "pv_rejects",
+      "pv_supports",
+      "pv_questions",
+      "pv_verifies",
+      "pv_challenges",
+      "po_proof",
+      "po_paper",
+      "po_model",
+      "po_dataset",
+      "po_claim",
+      "po_patient",
+      "po_contract",
+      "po_theorem",
+      "pn_not",
+      "pd_pos0_carefully",
+      "pd_pos0_quickly",
+      "pd_pos0_silently",
+      "pd_pos0_during_review",
+      "pd_pos0_after_revision",
+      "pd_pos0_with_context",
+      "pd_pos1_carefully",
+      "pd_pos1_quickly",
+      "pd_pos1_silently",
+      "pd_pos1_during_review",
+      "pd_pos1_after_revision",
+      "pd_pos1_with_context",
+      "pd_pos2_carefully",
+      "pd_pos2_quickly",
+      "pd_pos2_silently",
+      "pd_pos2_during_review",
+      "pd_pos2_after_revision",
+      "pd_pos2_with_context",
+      "pd_pos3_carefully",
+      "pd_pos3_quickly",
+      "pd_pos3_silently",
+      "pd_pos3_during_review",
+      "pd_pos3_after_revision",
+      "pd_pos3_with_context"
+    ],
+    "heldout_compositions": [
+      [
+        2,
+        4
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        7,
+        4
+      ]
+    ],
+    "label_column": "label",
+    "latent_dim": 4,
+    "min_abs_margin": 0.1,
+    "model_visible_policy": "primitive tokens/slots only; latent vectors, operators, score and margin are audit-only",
+    "n_ood": 360,
+    "n_samples": 1800,
+    "n_test": 360,
+    "n_train": 810,
+    "n_val": 270,
+    "ood_condition_counts": {
+      "ood_composition": 180,
+      "ood_depth": 180
+    },
+    "semantic_seed": 314159,
+    "semantic_threshold": -0.009427864098220325,
+    "split_policy": "strict_latent_compositional"
+  },
+  "hidden_semantic_program": {
+    "latent_dim": 4,
+    "semantic_seed": 314159,
+    "stored_as_audit_only": true
+  },
+  "leakage_policy": "Latent semantic operators/scores are hidden audit metadata; models receive primitive observable token-slot sequence indicators only. Held-out composition families occur only in OOD-composition.",
+  "model_visible_input_policy": "primitive_observable_inputs_only",
+  "prohibited_model_visible_columns": [
+    "audit_latent_score",
+    "audit_latent_margin",
+    "audit_semantic_seed",
+    "clean_label"
+  ],
+  "require_heldout_exclusion_from_id_splits": true,
+  "seed": 11,
+  "selected_feature_columns": [
+    "ps_alice",
+    "ps_bob",
+    "ps_chemist",
+    "ps_robot",
+    "ps_doctor",
+    "ps_student",
+    "ps_judge",
+    "ps_engineer",
+    "pv_trusts",
+    "pv_doubts",
+    "pv_examines",
+    "pv_rejects",
+    "pv_supports",
+    "pv_questions",
+    "pv_verifies",
+    "pv_challenges",
+    "po_proof",
+    "po_paper",
+    "po_model",
+    "po_dataset",
+    "po_claim",
+    "po_patient",
+    "po_contract",
+    "po_theorem",
+    "pn_not",
+    "pd_pos0_carefully",
+    "pd_pos0_quickly",
+    "pd_pos0_silently",
+    "pd_pos0_during_review",
+    "pd_pos0_after_revision",
+    "pd_pos0_with_context",
+    "pd_pos1_carefully",
+    "pd_pos1_quickly",
+    "pd_pos1_silently",
+    "pd_pos1_during_review",
+    "pd_pos1_after_revision",
+    "pd_pos1_with_context",
+    "pd_pos2_carefully",
+    "pd_pos2_quickly",
+    "pd_pos2_silently",
+    "pd_pos2_during_review",
+    "pd_pos2_after_revision",
+    "pd_pos2_with_context",
+    "pd_pos3_carefully",
+    "pd_pos3_quickly",
+    "pd_pos3_silently",
+    "pd_pos3_during_review",
+    "pd_pos3_after_revision",
+    "pd_pos3_with_context"
+  ],
+  "split_audit": {
+    "duplicate_text_count_total": 0,
+    "exact_text_duplicate_overlap": {
+      "ood_composition-ood_depth": 0,
+      "ood_composition-test": 0,
+      "ood_composition-train": 0,
+      "ood_composition-val": 0,
+      "ood_depth-test": 0,
+      "ood_depth-train": 0,
+      "ood_depth-val": 0,
+      "test-train": 0,
+      "test-val": 0,
+      "train-val": 0
+    },
+    "heldout_compositions_in_ood_composition": 180,
+    "heldout_compositions_in_ood_depth": 0,
+    "heldout_compositions_in_test": 0,
+    "heldout_compositions_in_train": 0,
+    "heldout_compositions_in_val": 0,
+    "label_counts_by_split": {
+      "ood_composition": {
+        "0": 91,
+        "1": 89
+      },
+      "ood_depth": {
+        "0": 104,
+        "1": 76
+      },
+      "test": {
+        "0": 185,
+        "1": 175
+      },
+      "train": {
+        "0": 415,
+        "1": 395
+      },
+      "val": {
+        "0": 140,
+        "1": 130
+      }
+    },
+    "ood_composition_pair_overlap_with_test": 0,
+    "ood_composition_pair_overlap_with_train": 0,
+    "ood_composition_pair_overlap_with_val": 0,
+    "split_counts": {
+      "ood_composition": 180,
+      "ood_depth": 180,
+      "test": 360,
+      "train": 810,
+      "val": 270
+    },
+    "train_ood_subject_object_overlap_count": 48
+  }
+}

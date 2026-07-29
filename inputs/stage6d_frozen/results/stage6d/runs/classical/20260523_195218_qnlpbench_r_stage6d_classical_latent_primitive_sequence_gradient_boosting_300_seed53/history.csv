@@ -1,0 +1,2 @@
+epoch,train_loss,val_loss,val_accuracy,val_balanced_accuracy,val_macro_f1,val_macro_precision,val_macro_recall,val_brier,val_ece_10,val_nll,val_roc_auc
+0,,,0.7481481481481481,0.7495059288537549,0.747649678377041,0.7525,0.7495059288537549,0.3835325687304999,0.07195779330445673,0.6214049660021028,0.7824440052700922

@@ -1,0 +1,18 @@
+base_config: configs/stage6d_replication_base.yaml
+stage_label: Stage 6D - Ten-Seed Selected Strong Classical Replication
+experiment: {stage_prefix: qnlpbench_r_stage6d_classical, run_group: stage6d_classical}
+output:
+  results_dir: results/stage6d/runs/classical
+  generated_config_dir: results/stage6d/configs/classical
+  manifest_path: results/stage6d/manifests/classical_manifest.json
+feature_sets:
+  - {name: latent_primitive_sequence, feature_set: primitive_slot_sequence, intended_strict: true, description: Calibrated latent d4 margin 0.10 primitive-input representation.}
+models:
+  - {name: majority, type: majority}
+  - {name: logistic, type: logistic_regression}
+  - {name: sequence_mlp_256x3, type: sequence_mlp, hidden_dim: 256, depth: 3, dropout: 0.05}
+  - {name: random_forest_500, type: random_forest, n_estimators: 500, n_jobs: 1}
+  - {name: extra_trees_500, type: extra_trees, n_estimators: 500, n_jobs: 1}
+  - {name: gradient_boosting_300, type: gradient_boosting, n_estimators: 300, max_depth: 4, learning_rate: 0.05}
+  - {name: corrected_rbf_svm, type: rbf_svm, C: 10.0, gamma: scale}
+  - {name: poly_svm_d3, type: poly_svm, C: 10.0, degree: 3, gamma: scale}

@@ -1,0 +1,1819 @@
+{
+  "host_replacement": "redacted-public-host",
+  "immutable_historical_zip_hashes": {
+    "stage6d_replication_zip": "fc71c84c5a3080033b30cb1f0e43fcee4aa4a5a63e6eaec185e9c10e071c92e9",
+    "stage6e_learned_kernel_zip": "fd60a81310645260ff127540aac409859167c4e5ccb47d42f9bd55064d9234e5",
+    "stage7f_supervisor_package_zip": "63138564e490a410f30e78de8552b14d2384baadd40f9b55a2664714e509184d"
+  },
+  "policy": "stage8a_public_provenance_redaction_v1",
+  "private_path_policy": "retain only non-sensitive basename or historical URI",
+  "redacted_files": [
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195139_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195139_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed11/run_metadata.json",
+      "pre_redaction_sha256": "d58445f2c4dd2982049aa4c245f36f70e9da2d7d05b242a1505881d32a5ece1a",
+      "public_copy_sha256": "64b9a52856a37ec7ce3a9861ad8b7b8644444a49a6343908b21779b83af41dd0",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195143_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195143_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed11/run_metadata.json",
+      "pre_redaction_sha256": "d057374a291f01d11763fe107002d60ef70e3ac6da05a8e8de6fec191791029a",
+      "public_copy_sha256": "c79f967eedb99bd2cdf755c33b4230a1c1916cf8371dcc29f7d14b0c9db293a8",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195144_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195144_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed11/run_metadata.json",
+      "pre_redaction_sha256": "8e0504d1bde7001deb6b51e721af15c20be68fc6414a052986acb1b5ce283ddc",
+      "public_copy_sha256": "15bbc8d15bfa4cf1eae0bd73dd7431207f9ed7c19f0bdaff8825e66da95d0aa3",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195146_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195146_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed11/run_metadata.json",
+      "pre_redaction_sha256": "efd7a7a36d213792119caada78f072119cbcc1c6628072dd3f9886c522255c7c",
+      "public_copy_sha256": "21adfa3a8998d3db7595a678520fee15b8ed44fedafb0025301a0a32b66f3c5f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195148_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195148_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed11/run_metadata.json",
+      "pre_redaction_sha256": "cf49929bb86befdf865a9930d2d261b20b0662ebf935eac41c775af93f532a6f",
+      "public_copy_sha256": "d3aafaa5e7700a2b90cc60b74a186fddbf6a35bcdc58e62a00af0fb3598a9756",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195149_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195149_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed11/run_metadata.json",
+      "pre_redaction_sha256": "eb4df1b2f64b92621bef2f84d7a81f4681bb9d9b1078808502b0ef4db98e1189",
+      "public_copy_sha256": "f18fa0d1e7eca47248f0a276e5479881f7219df1191baabd053fb669b6d4385d",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195150_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195150_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed11/run_metadata.json",
+      "pre_redaction_sha256": "3c5d4e11ccd5d57bdc1e4aa2261d80f272c0401e337cd4a9de457dbc8af149eb",
+      "public_copy_sha256": "e09258ec071ab18cea3cdec1b7874240cb40f00cbffceaf7065a0f326c2b757d",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195151_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195151_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed23/run_metadata.json",
+      "pre_redaction_sha256": "260c30b38e81b86f9a552869dd494542210745a11861e0b9752e2adbc5eeff05",
+      "public_copy_sha256": "61d4fb027009fac4aeb1083bcd4719e1617db721ac8df5836238521565596591",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195151_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195151_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed23/run_metadata.json",
+      "pre_redaction_sha256": "c8782515513a8af43cc66d6f1512ee28ac9ff446c8b2172ddf3329fae7f03e45",
+      "public_copy_sha256": "7c76807b6e293085d77ba506ed99340dcff7795ecbc92ae117b47ce7e4cbdf0f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195151_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195151_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed11/run_metadata.json",
+      "pre_redaction_sha256": "4417841eadbadfdd61f1d725b029859d076cf6fa6adb4cff82434908a647c19c",
+      "public_copy_sha256": "7f58a58f27f89356c9426ad62e034ef41bd14dc0e9db7e10469cb6ad5c1960a9",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195152_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195152_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed23/run_metadata.json",
+      "pre_redaction_sha256": "1f47c37a41e97ae450951d8854b2112b225a18255c4ed630d67a73d0021926f7",
+      "public_copy_sha256": "0c1dcf3d2387b10db6acb9d23716311b56c0893a4076ae0a5aab433fc121b46f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195154_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195154_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed23/run_metadata.json",
+      "pre_redaction_sha256": "e62073f7cc09b57f15551b7892b9e6d0c60719f9ff55937eb7069e2263693c14",
+      "public_copy_sha256": "cfc7680563354586181de5df2690f3a9c3b613b0b186e4bab85ee4c2d7eaf43f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195155_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195155_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed23/run_metadata.json",
+      "pre_redaction_sha256": "026ef00bea96944ac55ba3d0a290d550d17e7a2e8c255d5d340078991b5d25f0",
+      "public_copy_sha256": "9b5529d540fe6db5768e9678d2ec65ba20b1b4da3fc769c1185558046e7d42ae",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195156_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195156_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed23/run_metadata.json",
+      "pre_redaction_sha256": "e2c76813e3b1cef3ec009555943e6ab2cf7ab661a7a7d8af18888503d838bace",
+      "public_copy_sha256": "f4e168177584f96f5d67bf9881f6cc74d24c16c9f671044e3f07d8c9a5f78367",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195157_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195157_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed23/run_metadata.json",
+      "pre_redaction_sha256": "f08ec7b1d91cc4322cf5931da0bfb734f9bc6de7fbba8434182008f1a4a90a7e",
+      "public_copy_sha256": "aeebbeffc3974375c5679e4af7ec5cb3d069f4f396e060c4d9a9922f193eaef5",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195158_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195158_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed37/run_metadata.json",
+      "pre_redaction_sha256": "7fbfab3d924b7bbc6f1415bb5a2849749ab7e00d2e57f207c8ca76e509876338",
+      "public_copy_sha256": "cc0bde84db1e9cc7c683e040f77ffa3420e20b9750151fea4b6ae3a1c26136c6",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195158_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195158_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed37/run_metadata.json",
+      "pre_redaction_sha256": "723cf9bacdcf157b1856809b7d57f9b27add1a30861a31759b3b7b27fc42b4c5",
+      "public_copy_sha256": "93794002a6f9ea818eabff923e5e8de71e12e5d69ff7160259eccb1ad887f458",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195158_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195158_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed23/run_metadata.json",
+      "pre_redaction_sha256": "e06f224e1b1a6c3fefaf7859fac79062dadd2da97c9de2b5810feb0b2ee793a8",
+      "public_copy_sha256": "36e23596d18d2426db8e46302eb6e33ace3b6a07710ed8ce2624060f66c0a22c",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195159_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195159_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed37/run_metadata.json",
+      "pre_redaction_sha256": "cfec428122c19f20c18914c8a98d288435d6aa114b8846f1902fdff9ed3ffc7c",
+      "public_copy_sha256": "f9f833d257226534ff5f67f9975e1ab9736cb67e9775e949a8c5be3063fd34b9",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195201_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195201_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed37/run_metadata.json",
+      "pre_redaction_sha256": "340c3b28ccaacf99ea509fecf0aef7c2dae235e44ba5675ba1c52fef7fdeb48d",
+      "public_copy_sha256": "c11da6ff9c29388c5786532260508ea2459a1034e668a13288aa5f225cdb7ccb",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195202_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195202_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed37/run_metadata.json",
+      "pre_redaction_sha256": "a6e544e141ec3560865b5a9a7a1b293a5e0ced4415e66c68218d409550668b45",
+      "public_copy_sha256": "53176cb6c1cfb4cedf29ce4b5fdf5874bfddee4f23664a2be6aecb898ca5d03b",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195203_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195203_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed37/run_metadata.json",
+      "pre_redaction_sha256": "b7ea946904c30f181907cf4a06ed091157c8af0be3edcce9cd2e4d0273486b4e",
+      "public_copy_sha256": "b5f9aa76aa84c891ed9b6ca6138a8effb22138dc9a93b0650b4db98b7439ece6",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195204_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195204_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed37/run_metadata.json",
+      "pre_redaction_sha256": "d1ff339ecdce27757ff5f820278fbc18d803906183437740df8f27cb68d8a140",
+      "public_copy_sha256": "c8af4357992161caa2d2a97b8e0ae3854b59dc1d1b626751383492a54dfeefad",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195205_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195205_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed41/run_metadata.json",
+      "pre_redaction_sha256": "578da1822cab2b6abe3cd10d5fa4ecadbb53b08ae1915bfe46c65c968a74ff99",
+      "public_copy_sha256": "c3a0e52985dd9f828c763a4139a6a3c016a5f3022d9b8b39a03527beb18a987a",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195205_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195205_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed41/run_metadata.json",
+      "pre_redaction_sha256": "312971f4b76e9ecada311568c2975d4228afe02b6202a0e2989fd0745b5a133e",
+      "public_copy_sha256": "26469acea2978a76587cf3cfc3f54c4b85448d4e8558fdc16a386ba68201fae8",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195205_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195205_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed37/run_metadata.json",
+      "pre_redaction_sha256": "3e16caf1d29a9d9e17b87250eb3ac448971d60bceecc33b605353dac8ee80eda",
+      "public_copy_sha256": "ae6a3369a3089c9280d4fa4c31464fe017c8327ae7f067f1d85b6f1ee5f31167",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195206_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195206_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed41/run_metadata.json",
+      "pre_redaction_sha256": "30f7bcf2c887a021c7b07007bcdb5ce351a5fce62b26a8c031873b67df441c6a",
+      "public_copy_sha256": "6113aa8dfbb2f18afa6fdbfcfebe27bbe9d02dfd35e610791fc0a757f6a73b9f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195208_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195208_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed41/run_metadata.json",
+      "pre_redaction_sha256": "f66a401449e17fc15e185f1842b2be318b831ed715e31f738e7e139cc4eeec46",
+      "public_copy_sha256": "a1019b4a3682fe4b31e2492fbe612e78c9f3d3080b090817562ff076fcacccd7",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195209_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195209_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed41/run_metadata.json",
+      "pre_redaction_sha256": "7975c36a8a612eca870629736657ba28713e0a50a10fa94f4b5a42139bbd6ecf",
+      "public_copy_sha256": "f6b8aa93a0e823a0b119a386b531b57dc5cb34593897ba52c950f64960d19b5d",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195210_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195210_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed41/run_metadata.json",
+      "pre_redaction_sha256": "e0e2965ddf2630657e64ac9f8b139ae9b54b9b1bb39666ff7575a5fa2c33f9b4",
+      "public_copy_sha256": "ca709d6263d029396eeb14883e2b67b1df63a809a9e4ccfd491e1b664918bce6",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195211_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195211_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed41/run_metadata.json",
+      "pre_redaction_sha256": "1a4c3612de9009af361841da018ad149295fc1039db111681b18fac3928af040",
+      "public_copy_sha256": "3c47cc2b7acaa60aa59091626e2edd85c36ba82ada182331edc103bde8a1eff5",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195211_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195211_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed41/run_metadata.json",
+      "pre_redaction_sha256": "3a634b177d8d91ed19296ad67f9cef2956d583cf599f5666e22df90564bc3c18",
+      "public_copy_sha256": "ce6e526acfaa0f5ecedd83813d9ea4fd10c2cff0755acee8b0b51f1e7e3c3180",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195212_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195212_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed53/run_metadata.json",
+      "pre_redaction_sha256": "eb202fb465907f4789a4e8b0ae61eb76b2f16da077e5c526962c84f18232a8c1",
+      "public_copy_sha256": "fe492f46ffc5403010a570fd9839d4c22adae789dc883f2a457b18053a1dce99",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195212_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195212_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed53/run_metadata.json",
+      "pre_redaction_sha256": "3d9605cf48f5642945099c2803cc4cdaad55d1548fa106f04d6c3a2db964209a",
+      "public_copy_sha256": "82b5288867429333c35745720c2c09b5b6581d481a1d61ae7c2e1773065dcf96",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195213_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195213_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed53/run_metadata.json",
+      "pre_redaction_sha256": "5ff638816883b31054082bcc5ef082b463f5338542258b64f3292bdce151eaa1",
+      "public_copy_sha256": "21dc968257a79038cf0ede2f5761afa70d3d8e88ba9f4e5076539995ce8f0f2a",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195215_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195215_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed53/run_metadata.json",
+      "pre_redaction_sha256": "e0867ce11ce3802c5fe59e2503e0f301469a919db3e8cfc1996181f875f0052b",
+      "public_copy_sha256": "c66f483dd6364f51a2ee5bd92f5d4a90614eef7df62c6c916247e1d2cd550ea8",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195216_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195216_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed53/run_metadata.json",
+      "pre_redaction_sha256": "bef5640c72bf046ccfa7397ad03fb6146588919adbbfcd6b1d912f097a371adf",
+      "public_copy_sha256": "cb16f07bbc35859425153d45835a8f983c13099e27f0f1f08bb84718fe4d5ac2",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195218_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195218_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed53/run_metadata.json",
+      "pre_redaction_sha256": "39a85fd53c7db91c3824db57cf24a746fa67e9be81594dddf49614e468879475",
+      "public_copy_sha256": "1d68e080be2f8b7a6ebc75862313e470614475e073e779072493ee0738fb78d5",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195218_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195218_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed53/run_metadata.json",
+      "pre_redaction_sha256": "48b3355f46b3e913ed6f27bcbfb4672b5b383875c2fbd7b58c50181e5e192717",
+      "public_copy_sha256": "30ac2af808f36ba0764cceeef904d2f674e2b43431415b400f5771b3ed6353a6",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195219_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195219_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed67/run_metadata.json",
+      "pre_redaction_sha256": "6f2988c61fdac5fc8be58731957b2cd137243325545178df73cb93c372a3fa92",
+      "public_copy_sha256": "afabb186a4106a5391fd009a45c028e80ced24e496c6b6a0678627e9bbf3a67f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195219_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195219_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed53/run_metadata.json",
+      "pre_redaction_sha256": "8556a5862386468b98a91b27c44dcff275e5d9ac1a2ed081d1f8695abb369317",
+      "public_copy_sha256": "bb4341af443457411f814daee37139a27021a446c967961b54de2323500afbba",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195220_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195220_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed67/run_metadata.json",
+      "pre_redaction_sha256": "42ac0338feb3c7fa4e40f9499dae1b8a258e88c33bffc45e92227b6ee777f0c7",
+      "public_copy_sha256": "f24e97dde2c0cc0fcfaa2df22bad4139936b914b8ee1f86ccbd9d83de2dc6c1f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195221_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195221_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed67/run_metadata.json",
+      "pre_redaction_sha256": "d5454156cfebe370ffce9044c2373b271cb017745aae4fc31a922737331c1c34",
+      "public_copy_sha256": "465bd4c50c33e09d1df46871cbad0ed56e43980e81865c4ba7f40ce2f8340c09",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195223_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195223_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed67/run_metadata.json",
+      "pre_redaction_sha256": "b1c5c0985faa37e1bde2a65477b1669dc6679925a99f8d8389af84d014e622c6",
+      "public_copy_sha256": "a0c0aec371763413cc64901d066a05c3aeba767ae8e6dcad58e29eaeba55f4d4",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195224_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195224_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed67/run_metadata.json",
+      "pre_redaction_sha256": "037c74f26aa0008ccfe5d4b012b836d6102a615e13df3705da1068a1752e9a11",
+      "public_copy_sha256": "c4538fd177738cca4d426a3e63ddb2d1557b73bd068e6198096c895cbc5ae138",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195225_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195225_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed67/run_metadata.json",
+      "pre_redaction_sha256": "5ff25a7e0463e79f93024ab9e73d72b1627f156a3e0b91715cfbbcbcc779c7b0",
+      "public_copy_sha256": "f56e92901e331f786fa7ede3a2fdc793aba38310c2b73b881b94302aaae3e220",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195226_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195226_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed67/run_metadata.json",
+      "pre_redaction_sha256": "6742e979c7be8f6df0f05197435ad0720917497b1f8edc92bee70250f2e8ee97",
+      "public_copy_sha256": "a1a402c96087aa696fb1ab6382ad283c9ae7555dd1de8c19154f84a67baad0b2",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195227_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195227_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed79/run_metadata.json",
+      "pre_redaction_sha256": "7ad620f43827c9ee14664d418ba2492820deb538ae80281db51886d901f5ce22",
+      "public_copy_sha256": "eab6eb3aaa9b09a64df1a85122423b760b7e0dfdf663d42b8b6e9a5ab640b9af",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195227_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195227_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed79/run_metadata.json",
+      "pre_redaction_sha256": "88f31279db8e471e513be09c90181a0e349237249324a4760993e16f2696cec0",
+      "public_copy_sha256": "b3363a9baaa4083c02f90ddf1e8bef5c1bcbab9425855d21fe7cc1f4559d61f1",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195227_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195227_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed67/run_metadata.json",
+      "pre_redaction_sha256": "c74c48cd035345ae2a2eee90e45018a822498bdc83c7773cb37dd5202e5b8ddd",
+      "public_copy_sha256": "13e2ce4bc014c0623435d1b45aa88288c18ab4ebb2f3aa6dcd061a9d85d720a9",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195228_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195228_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed79/run_metadata.json",
+      "pre_redaction_sha256": "434d57702b5d48fda135aafa6f724eb09546dcccda1fa756aece314e21ac0b5d",
+      "public_copy_sha256": "6fcc832615b17be5df80d98a92ba7083a50b19ab60b27736f3cc4aad5ac9269b",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195229_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195229_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed79/run_metadata.json",
+      "pre_redaction_sha256": "b69a96deeea48f4532cc4051beb52d4d2d72ab757fbcf28e5b0af709b16212d5",
+      "public_copy_sha256": "86932f968e035b614bce1919a455e9867730acd58f95d0b237f0502d999045eb",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195231_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195231_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed79/run_metadata.json",
+      "pre_redaction_sha256": "8525e305b015a8460f406d176f45655bf51fd91202d3d51fa259a294ef5dad3a",
+      "public_copy_sha256": "14e08a43d6bb41255082998b0918dc34a76a5c77b418b573e682d30d1b7f7f80",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195232_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195232_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed79/run_metadata.json",
+      "pre_redaction_sha256": "03d7308d1f02816aa14bdfafc4175a7aaeec7ed3c1eb0ef4487b88f1e1d52ecd",
+      "public_copy_sha256": "d526a6e8597a7d0c4db1789ebdd66967578afcae701f185918b366dbee313543",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195233_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195233_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed79/run_metadata.json",
+      "pre_redaction_sha256": "6e1ec14009937eb335e91c2275a04cbcca2e06f749e3cc92fa8c124e809cf823",
+      "public_copy_sha256": "e9bc64e19be4ef6e847e87161a6d9853e16e1af42c2033423441acd541e688b2",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195233_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195233_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed79/run_metadata.json",
+      "pre_redaction_sha256": "e11fe1a1c867d1a6a0a6eb98fa75a9a342c5740493dbe1447fa69cce4cb56718",
+      "public_copy_sha256": "6bbb37f1aa64933c0d1e8264c0e3718a5088305b3be8770c251520be289738ed",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195234_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195234_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed83/run_metadata.json",
+      "pre_redaction_sha256": "44c12608fcfa5a277778127d2b3708b721dc54030bc8e991296f702bf56b09da",
+      "public_copy_sha256": "15bd3193750feef9390d58ecbee379bb581737662fc0b27fef079c59e493f0e0",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195234_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195234_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed83/run_metadata.json",
+      "pre_redaction_sha256": "c5bf8398d1c68c13c9c612432316d17e7fc0a73a4992f4c5e4d6c29d2bde3573",
+      "public_copy_sha256": "54f546695a128ee365ffa12aba4bd5d81e7209ce97dabee4b25fff51b4a50c4e",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195235_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195235_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed83/run_metadata.json",
+      "pre_redaction_sha256": "7750fe1e2226540bdf5e308cdee5c648df9af1b3ac2e4f6c681935cb27760ef1",
+      "public_copy_sha256": "8cbebfe0b2b58344e5be4acd3f2ce4fd53b57e487946e2ee2416397e96c1a49f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195237_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195237_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed83/run_metadata.json",
+      "pre_redaction_sha256": "0a8272a739b6b45c02e54bc97d361d55997438f711dc60798e52cc9b11168abb",
+      "public_copy_sha256": "0743d9f1efa788e2ef7e43188da5a24dbffe3e0e0a121743900f6b07cf3d0602",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195238_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195238_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed83/run_metadata.json",
+      "pre_redaction_sha256": "3949ce7bb1199b19f4beacfb73cd78a4d80816290534251b83d35b9d54807ad7",
+      "public_copy_sha256": "bd7b65b3566a1ac20f86200e462d05405a9d7c634a1970e40de0623914b1c4b3",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195240_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195240_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed83/run_metadata.json",
+      "pre_redaction_sha256": "535c19f4a97695817eca99084185039d8d47af1c7580eeea1706cabdd266df44",
+      "public_copy_sha256": "46dcb965cff8fbd4c73c5beeeab94b034f35073177b9ea1d779890bf79495c33",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195240_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195240_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed83/run_metadata.json",
+      "pre_redaction_sha256": "992875734762011e2530f377035ef345fc2ddae7376280fee084fa918c395c21",
+      "public_copy_sha256": "69288ed227d717c14044abf126f6f8521c0832362ae481c86d4abeda04378c22",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195241_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195241_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed97/run_metadata.json",
+      "pre_redaction_sha256": "b067a9e18e94893c751d16d9a6fa7c109a7f5e240699ac65d296816a12d327a4",
+      "public_copy_sha256": "db53b930d6901d7d765587209d3c1198efb59856c1363f97b4be604656629361",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195241_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195241_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed83/run_metadata.json",
+      "pre_redaction_sha256": "3c2cbadd98f4b8be667a9db2bb8839ee77b397be3c17100198ead5e5ca358557",
+      "public_copy_sha256": "b86355515378e2a111bda9157f38313bdcdc47f72e38c048879345e580465539",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195242_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195242_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed97/run_metadata.json",
+      "pre_redaction_sha256": "185a98a97ffed56b852d98b1d0cce5b3d450ba3e196085be9d238e3e1985a870",
+      "public_copy_sha256": "64ae7fbc760efb91f756f094d4fb9b077206c87505b7575487cd5aad8e2287d5",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195242_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195242_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed97/run_metadata.json",
+      "pre_redaction_sha256": "8de84b6d141c0eea34dcbec2084ea0a1d9cf07ff520e1174e519456a9635cdef",
+      "public_copy_sha256": "5b8bf3beef6c426ef215e652256160840d5ba03316fd6378b20528b1834f2c26",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195244_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195244_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed97/run_metadata.json",
+      "pre_redaction_sha256": "2d9b29ae1254264ea1a80f4d97044d8316427fd01bd4b754524cea9d6db8a6c4",
+      "public_copy_sha256": "9304a952c683a12c72ba16e86dc40ac8bdb58cfc751365dae0c1dde2e435c31d",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195245_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195245_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed97/run_metadata.json",
+      "pre_redaction_sha256": "8ff9d85b75f533f2e2817fb484fe2490bf89df63fd747cb98ba7875b925bad14",
+      "public_copy_sha256": "38b5a12a19175aeb17693b69e9cf23600c7bc978a03cb41488945560b50d5147",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195247_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195247_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed97/run_metadata.json",
+      "pre_redaction_sha256": "964156ca0f1849d106c1bdcee8c5aee0c34d8ebf0fa41c473f02ad565133aa7d",
+      "public_copy_sha256": "cc57864cdf2f05301d9fd928cb480d6281d07f8797b176462f96c3e7b08d8b5e",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195247_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195247_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed97/run_metadata.json",
+      "pre_redaction_sha256": "9e5798ee86fa8c565a22983acc322999dc68731600652bdb884391321e635dfc",
+      "public_copy_sha256": "db82f634304ff2f7d7a4b86fb61e047e1027b86c97cd7bbfcc62638faeb35db4",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195248_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195248_qnlpbench_r_stage6d_classical_latent_primitive_sequence_majority_seed109/run_metadata.json",
+      "pre_redaction_sha256": "5ee607824c2b1292fbe692a621feb13469f68c513d83214b52d2fa1d8ead2cee",
+      "public_copy_sha256": "48669c38ac6fe5d51d54a27ac674c07b6b85febf4244226bd24447ab7d2dab8c",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195248_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195248_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed97/run_metadata.json",
+      "pre_redaction_sha256": "72b23eb04b02df97d55f5aa0fab05e2b96f20f0f655ececcc06811e1dfbc4568",
+      "public_copy_sha256": "ba463cd73cb764d87c5dad54964cd4329c882f071e9aeaee424034426813e3ea",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195249_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195249_qnlpbench_r_stage6d_classical_latent_primitive_sequence_logistic_seed109/run_metadata.json",
+      "pre_redaction_sha256": "aa116237738df498badf8e95a8fa3725b396943ed002002712fb0a0c61b1a6c9",
+      "public_copy_sha256": "2efddd08b072da54ac1446edbee1768f4dbc2f3848b745ba69ebd682955ec9bd",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195249_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195249_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed109/run_metadata.json",
+      "pre_redaction_sha256": "520e78552ca5d49bcc9d31f589715d3d782f0ed697e237d24f1b9e7c801b03da",
+      "public_copy_sha256": "d1a6630a9b0a4b81b9c687acfebabe79abf00cf65db7dee9ccc3e318c028ab51",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195252_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195252_qnlpbench_r_stage6d_classical_latent_primitive_sequence_random_forest_500_seed109/run_metadata.json",
+      "pre_redaction_sha256": "dc65c2f9fb586f43aa679ed4498e6a2438db551eb54b488191125ea0906ab139",
+      "public_copy_sha256": "d597401f4f395d45b9ac87f2c53012f5d90426afe05dd756d1566fb784a8e7ab",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195254_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195254_qnlpbench_r_stage6d_classical_latent_primitive_sequence_extra_trees_500_seed109/run_metadata.json",
+      "pre_redaction_sha256": "a0b2bf866474de7da5a73fe8bef0a49df2eb0d948d4cab6f2ff421df218b9bb6",
+      "public_copy_sha256": "72ac79eda433e49b1a09c80ea4a2311f9b56600a6b8491759e7ff706fedd6fef",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195255_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195255_qnlpbench_r_stage6d_classical_latent_primitive_sequence_corrected_rbf_svm_seed109/run_metadata.json",
+      "pre_redaction_sha256": "759592515c32d66acb9567b9329e0882d0fee81f91ffee20174fe170879f1be1",
+      "public_copy_sha256": "de1dd4127f7f4e59de9c0b0fe4b0e5acde1ee7b1553e61e91d9303411b9f5911",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195255_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195255_qnlpbench_r_stage6d_classical_latent_primitive_sequence_gradient_boosting_300_seed109/run_metadata.json",
+      "pre_redaction_sha256": "37a3bfe20eed6e626791b864ac1e61f0cfcd05196730a12a88a15f144d74ee97",
+      "public_copy_sha256": "b8e56e7db0daed00177ffe22f40db0edccc058625819a857efd87205f57db035",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195256_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "50115b6e45d65dd87ce2a3f844667cc2808b5cbca54e66e5b914a71a20666229",
+      "public_copy_sha256": "678d0f3c6505c1ac9ee4070c8325e8c92496dabcbd63cc888842f1152b38be46",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195256_qnlpbench_r_stage6d_classical_latent_primitive_sequence_poly_svm_d3_seed109/run_metadata.json",
+      "pre_redaction_sha256": "b204e674444719324365c04a842f997b7e3392edbb5ba9beeea700d462976399",
+      "public_copy_sha256": "b97290652397525eb6f0b7fad58d69a0b65940e7ed902b739878cbb70a35db3d",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195300_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195300_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed11/run_metadata.json",
+      "pre_redaction_sha256": "ef8cade6096954e0648d80c0e62f70a3b9dfd160e7dc3dde05c385844ca7914d",
+      "public_copy_sha256": "aa14f83d6d05643a02d15df72877ede26d319a165248b476fc48998f38f218ef",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195307_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195307_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed11/run_metadata.json",
+      "pre_redaction_sha256": "889d6fa40c6816cfd8aa86043ebd8c2fb34c6965fbf0247c42967f03a3ad5d9b",
+      "public_copy_sha256": "bb273f7b02fe7bd494ff7f870a9bd233cb7c80bff4f9c2ffdd14d93f09a991db",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195313_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195313_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed11/run_metadata.json",
+      "pre_redaction_sha256": "a39ecaea2523af55ed468956070eefe367bbab2776d859f1a8df30967987b9b9",
+      "public_copy_sha256": "5a76c86fd499cde462ea530896cd958294376c09548e2f45479bdf71718faf61",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195318_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195318_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed11/run_metadata.json",
+      "pre_redaction_sha256": "8a9bdde9bc6a84c5bd57ec38211228ea706a84264c95f9e00563f3187f8044e7",
+      "public_copy_sha256": "600aed06b195e99bdcba81645cd28469bb7d9b2fce159b4b01c16d76fdea29ce",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195326_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195326_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed11/run_metadata.json",
+      "pre_redaction_sha256": "b70fcfa2b03866c01222f9146d122cdd03ee15a30134272564a48086fcc59761",
+      "public_copy_sha256": "b518f887cdaf90f57479f02830282e3a35cdd7c1cf80275549f8ffe0a188377b",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195330_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195330_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed11/run_metadata.json",
+      "pre_redaction_sha256": "817e74f04f97f17128539703b67497c7e8e6c5c0548ce32407d3c316bfaeca1a",
+      "public_copy_sha256": "4fc1388ab682f826fec33b8a9442cf64500725404ff76e022117ea86ab63f94c",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195335_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed11/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195335_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed11/run_metadata.json",
+      "pre_redaction_sha256": "f9a0b22de04735288058848ddb38d22c6ae4d5d4a9d252fe26b87dab2a190892",
+      "public_copy_sha256": "b6d7ce90a1a6fafe274a67c63eaf4dd53f9a195e5837923481a335f70d877492",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195339_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195339_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed23/run_metadata.json",
+      "pre_redaction_sha256": "213fd8eeacc398636fe886b9666ad413b9f1b8a872fa698f7bef293e984ceb0d",
+      "public_copy_sha256": "02f27996e22e4c17cf619365c853e1972dcafa7bd96aba4a969416492898ab16",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195346_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195346_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed23/run_metadata.json",
+      "pre_redaction_sha256": "a514f9bc3deda0d408b16486a6c5eedc4b56c487d07e5a4c9720f2f3633ed2b9",
+      "public_copy_sha256": "87c81539ad7c55d5034427c0be9b6d35cc3c861c94a2d14209dc0190e79c008f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195353_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195353_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed23/run_metadata.json",
+      "pre_redaction_sha256": "764b903a73decfb982939fa68106166f1035ef49186b7e360372bc4ed7906cac",
+      "public_copy_sha256": "a689fd2df68deeebfa88a9fe701ec51373a99f11eb950d41e3f2b53cbea3b789",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195400_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195400_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed23/run_metadata.json",
+      "pre_redaction_sha256": "865a7581edb788f86e31e76b240b7d55f773442d55817e70e193d3f52fd91f48",
+      "public_copy_sha256": "dcb8057139722630aa5adfb22a9cd7768f0361eacb328a79585a4945dc7d9ac2",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195407_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195407_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed23/run_metadata.json",
+      "pre_redaction_sha256": "223a076c4d7eedf90883959c96146ed5db65bc0f25e0eb3615321f61d05a17e9",
+      "public_copy_sha256": "9d13bcbca49ed075b0955dc561fce858cbb823a1a16f94c863df56d430254dc5",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195412_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195412_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed23/run_metadata.json",
+      "pre_redaction_sha256": "ced2e3d119918404ee4a055dd0330befd5cd8efca78ab4e0580d03fa9a86f54a",
+      "public_copy_sha256": "ae90c3c196cbec19e8ef45151f93c8f4fa000aa1b00ab5487a6cba9aa4d60213",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195420_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed23/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195420_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed23/run_metadata.json",
+      "pre_redaction_sha256": "3f3a938f3f3ecd3215759687b97fe8a251881cb27c9710662d319c27c42d7ec8",
+      "public_copy_sha256": "170e6cd1d60fc59a80abb742c8b4faecff7f6f095566fd6ac76a22abfac1b202",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195421_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195421_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed37/run_metadata.json",
+      "pre_redaction_sha256": "c6c997f6d122c8f61087e918f507041910f7cebec2fe25cfb25ebabfdebc3b3b",
+      "public_copy_sha256": "10c4307e7735de8d67572823dc1015b967edc49eb2d4b9db2636afd408594768",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195428_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195428_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed37/run_metadata.json",
+      "pre_redaction_sha256": "724a9b34658d34ad66511567b8b7679eb4544b41e18e2a30442be739616a2d35",
+      "public_copy_sha256": "f1d9daf31950f41b551ad3e8313196e584454be761bec3ded1a6cb3bd470e311",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195436_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195436_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed37/run_metadata.json",
+      "pre_redaction_sha256": "cd635b6a1162f0f33482fac16cf97e905123549060c874bb78a12e54f2bcc3cb",
+      "public_copy_sha256": "854adb18391260c2f01283bd5c4f46585dc6801f9b031e1c918cf23c9681641e",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195442_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195442_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed37/run_metadata.json",
+      "pre_redaction_sha256": "77a61f79970a02a915eafc4ef15b3993f456f850e2601ad701534fde3b7fada8",
+      "public_copy_sha256": "82a809b41bffd8fc8b6ae596e8bbbaf92ec42591ad150f3d836140c6553ccbf4",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195450_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195450_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed37/run_metadata.json",
+      "pre_redaction_sha256": "797f7091704bb01b5a9ae1935aa86aff78581b8e6d6efcdc9fe98b78d5b35537",
+      "public_copy_sha256": "93a78869537bf44978ed531bbe3462cdec7d28e31bcd4ee7c49e0fd3a5c423f4",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195455_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195455_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed37/run_metadata.json",
+      "pre_redaction_sha256": "ab9ea914c55a8d940b2522ed4c6efdc3a99ccee43b7dd6edd1d9dd1007efa513",
+      "public_copy_sha256": "a3126d00e95d1056363351126a04be7b886b907112cd6ce2c0f04e9abba59b4d",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195459_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed37/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195459_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed37/run_metadata.json",
+      "pre_redaction_sha256": "c9904fad67dbbe4871935332fd25776aa6e58aca81e71df058fe837d492d5e2d",
+      "public_copy_sha256": "333960382e4b1090c768d6455fe0c0a8b4d0a496ccf719996c512c1b95aa016c",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195502_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195502_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed41/run_metadata.json",
+      "pre_redaction_sha256": "440460f581531e202cb63dae1f88fd0ada51ce4e8652f577f376f45868f6632b",
+      "public_copy_sha256": "0405c119063fa2551b88a6a806c4a03f1dccb1e2f9842a643605f00d849183af",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195510_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195510_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed41/run_metadata.json",
+      "pre_redaction_sha256": "d67436e8e0d64da08ce46273a632ec5e128501bd3a5e9d87c37d40e0a62b8c1d",
+      "public_copy_sha256": "09296722bb0319155109a69092fe4c2413ec07cceb9d27d947155f12075eeb60",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195514_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195514_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed41/run_metadata.json",
+      "pre_redaction_sha256": "7189cd8fee4ac04277fb1e7f4af1f0e4a88b746c75d1c1f695d69f4511cb0bef",
+      "public_copy_sha256": "3936935763e26c1aa23b266d41edd8cd2d0252807221cb33508a88a96614a86b",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195520_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195520_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed41/run_metadata.json",
+      "pre_redaction_sha256": "a123011c89a2e76e2c2cff6be2cb3a9b79be49dcae59b94e11d5d7a1a6b98377",
+      "public_copy_sha256": "0f1c1828c4175f18d01a7b0f1d1201ad10e5892de861f6f30b7bc94e3df1e4f8",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195525_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195525_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed41/run_metadata.json",
+      "pre_redaction_sha256": "8410d2b375e05e13c2d34b0d2a3c7d7cae350c431065d81f9392baba69471f8f",
+      "public_copy_sha256": "69fcad2c16213635c7b8edbfcf85434f694311e47172b93e4934b60246a602c9",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195530_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195530_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed41/run_metadata.json",
+      "pre_redaction_sha256": "76aa4f4169f8fe0241b453c4251f02f00d086c6db0b862b58feba580aa9478c4",
+      "public_copy_sha256": "e6fc8441bcc0258f0ab9fc0cabde0645a268534773f20bc0fe62b7ea16355fee",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195535_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed41/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195535_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed41/run_metadata.json",
+      "pre_redaction_sha256": "2ed712870158c399a78ab1d8372fe7f2cf50c9449501c0e15f4083cd2a9aacdc",
+      "public_copy_sha256": "3a43d25e70fae80da26f5ac7853cde4bfcc18e5a0fd445c4c1b43ff3ebdc0493",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195537_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195537_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed53/run_metadata.json",
+      "pre_redaction_sha256": "a691b9ee14b11a0a7f20b48251695118e39ccefa75f1f58a640e60c08a1b6785",
+      "public_copy_sha256": "dd674f78d69a90a9c798dcbfca997a6f48428acf779f5089718012b7343abaca",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195543_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195543_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed53/run_metadata.json",
+      "pre_redaction_sha256": "69fcea4d74f5a84d09a6e2f46c958aceebbabe786b67c9b5af73fc63a24ca8e2",
+      "public_copy_sha256": "c69ca4390d3d507b3529ff1556d5f901d69381b4288a1eda71e2a81de2e0f18c",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195551_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195551_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed53/run_metadata.json",
+      "pre_redaction_sha256": "6e1be8abfde94bb009248ccfffba1638184c156e5ed538ab11836b5f5d1a9a2f",
+      "public_copy_sha256": "2d4c93f82c071b64d5407b9c4a930e72f2967014e90af30841333dba9cb81b28",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195558_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195558_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed53/run_metadata.json",
+      "pre_redaction_sha256": "2b201b31a0afdc2ef6775237286e8557739c17e804cda6293ae353c976440bc8",
+      "public_copy_sha256": "99f0c571f8feb8f08ea3e4c0fdef3c614b8929b18f07decc22000ab1c7920028",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195605_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195605_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed53/run_metadata.json",
+      "pre_redaction_sha256": "c5d91b034dd7507661aa89179a6e3d184337b51a059f3e5f1c34737fa6e081d1",
+      "public_copy_sha256": "8d915560d597e4d701b8fa52b68671919b50467fd932f7bb937f5b5d9d7b77dd",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195613_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195613_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed53/run_metadata.json",
+      "pre_redaction_sha256": "8463dbf9ee62aeb01c41abf94ab4de7079cc2d998a3c2ba5545e6b7fc1251bb4",
+      "public_copy_sha256": "65090d680e60344befecf4f81a0881e6e561c17363e18e0f96afc7a7036f1ab5",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195617_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed53/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195617_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed53/run_metadata.json",
+      "pre_redaction_sha256": "5325e8ac4d82ae34bcba7a3ca4d1d7a449cdc1dcc812d1b25fee8ab3f5a62e1d",
+      "public_copy_sha256": "fc667cb9d480ed919237cc5759da87b97c373cf1368d6b095797ea896fb305d0",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195619_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195619_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed67/run_metadata.json",
+      "pre_redaction_sha256": "768f7685793b299445d25853ad34d6e0e7c9e3f709730554fede67a3d9c4b0c2",
+      "public_copy_sha256": "9a53d9fd4c45ae509ee7447af6769e99068649e35b91225a8942da00a480889f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195626_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195626_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed67/run_metadata.json",
+      "pre_redaction_sha256": "45b2219df3de44a182a7ddbd92ce9120df63182fd522c7e458b029da91ad5928",
+      "public_copy_sha256": "f008659e45bc4cb5420e8562bd0c59d3fe78eb4c01c36fef2fcf98e0c5c7176f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195633_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195633_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed67/run_metadata.json",
+      "pre_redaction_sha256": "99a96ca695a1dff1f1b5107da4f10016b4cef367fc3e467296ae46b6d9609c0f",
+      "public_copy_sha256": "2abdc957bad988340dc9e838fc1c6f6e5e5fb0c874dcde02a4809467329b0412",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195640_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195640_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed67/run_metadata.json",
+      "pre_redaction_sha256": "58277fc05f95198f8011558eaa49743f4f289f1a8bc52914b5b6d95925ddadc3",
+      "public_copy_sha256": "3bc0d7ed3357699d1424996448fc483f12c33f70dafb7571d76a4307526cd6f1",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195647_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195647_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed67/run_metadata.json",
+      "pre_redaction_sha256": "69cfc025e90d339fd584bf4e6cfe239d5ff89980377fcc61023e55e1b50d5c68",
+      "public_copy_sha256": "eace9b5c3814e295a76bd5e14e4bf039beeb6228c0fece74faa54d3f83a388eb",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195654_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195654_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed67/run_metadata.json",
+      "pre_redaction_sha256": "fd03b40f3f0fb8266e436adf531ac78066a96c5938f26f38a2e460b826154fb6",
+      "public_copy_sha256": "c59e2192b4e69b5d8458fde9d1fe232c83317e3e8764fe43ca37f057b61fe724",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195701_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed67/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195701_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed67/run_metadata.json",
+      "pre_redaction_sha256": "51d7c99e0178e9b1174013688c54a55c12324ebc7211890c8bec9765815e6719",
+      "public_copy_sha256": "6965eadf1832e8d3e6013437e4b11b79f48aa0ef91d08995ba458bfe7436493e",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195703_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195703_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed79/run_metadata.json",
+      "pre_redaction_sha256": "48211daf74effed3d04f6776c81107bc0907e7ced8472b3c882f148968edf835",
+      "public_copy_sha256": "a926ef03b7cdbe19d50211e541792ae72c34fa38d3c9436ae1aa9b1925e0b895",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195711_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195711_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed79/run_metadata.json",
+      "pre_redaction_sha256": "da1ef0548214bb4662c1a09155ecd1d9d75c452bb16692cd738485819bb83baa",
+      "public_copy_sha256": "0c7973259f210392b522f6f475acd33633c9d1ae4cad173a8daaf2733ebb101f",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195717_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195717_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed79/run_metadata.json",
+      "pre_redaction_sha256": "483fd3e89b907e2640d0617d1553057eabf55395143fa1fa5f46b8fe29405c19",
+      "public_copy_sha256": "15fa673fd1d5a987b3adc1b6cfc15f657e88717917f2e9c6cf9ec3ed483ffcc4",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195725_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195725_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed79/run_metadata.json",
+      "pre_redaction_sha256": "6ba6978de6d735229fcbb03c782846092c16c5f6a34a30f64d93cfda7c44f9d5",
+      "public_copy_sha256": "50c3ea17d83241a43aded50c5177963d2637b3ae910645c89d7768aae7355dd9",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195733_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195733_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed79/run_metadata.json",
+      "pre_redaction_sha256": "dd535ea5d39c9a8efb24feb32f948c8436bba6833bd4337cd26eba7545a74698",
+      "public_copy_sha256": "7e75df05d5534cc61f7484b7afb191355496f960a52c8c74dc79fcfdb855d6b0",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195738_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195738_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed79/run_metadata.json",
+      "pre_redaction_sha256": "5ddaa08a44d4c09222a3d023faeced0ee062a2458ba7a2577438984e6d416a65",
+      "public_copy_sha256": "46e14b51390f8205d03ecbce2d3a94ec068e4e8d18ee93ef1ec9ad7e5943a555",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195745_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed79/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195745_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed79/run_metadata.json",
+      "pre_redaction_sha256": "194cef3f117d41c57d2b4f6a14d9e8d144309b02810b86760bbc2216d319b934",
+      "public_copy_sha256": "37ddc0c5a99d6d676ae4d3dde60dbfce455ae9a90da2934d4843c9058783e165",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195747_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195747_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed83/run_metadata.json",
+      "pre_redaction_sha256": "247f1c7659eb7649bb54cdcb65dcb536031bfc72f0890e25e2f1da0b155ac291",
+      "public_copy_sha256": "7ea282606adc60d2ff79aa00824feee104f2f339fd45411b34e947321d5a87b8",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195752_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195752_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed83/run_metadata.json",
+      "pre_redaction_sha256": "35d0ce04577b2e79e6665fc92c80b3d266b75b2b4cae583ad1c04fedad7e8f14",
+      "public_copy_sha256": "8f01496a787419feb78c0bbdc98dd733e94781a7a7c9b14d1445ac6d73ca6da0",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195758_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195758_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed83/run_metadata.json",
+      "pre_redaction_sha256": "2c4fe346ce79159eac48eaca2b9eafcc80d6decbfd052fe7bc0cf62a2e2391f1",
+      "public_copy_sha256": "4c0b8c1d52794ad09477506411b1a6365b5889fef7c53e7c3b4443839b18c01e",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195806_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195806_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed83/run_metadata.json",
+      "pre_redaction_sha256": "efce06553a8cbef261e3e28fedb06829830fd2185ac8f2a502e9d1193e61fb39",
+      "public_copy_sha256": "a02ec0a367c32b6ceee40bd4a686a731daf792bb88902248c46eba5ddd79ce61",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195813_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195813_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed83/run_metadata.json",
+      "pre_redaction_sha256": "320016b1e4522b962a8b405c9146e8972d7f560ad59839945d70a8588f967e64",
+      "public_copy_sha256": "53960d0b8489cb5267aec810bd72d8bc871d711d058dc6350506c61353ebeab9",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195819_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195819_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed83/run_metadata.json",
+      "pre_redaction_sha256": "60340b1fbb6cd401f8478fa6074b2d8e7b91c627a3666e231f4ab3f5de8d8c31",
+      "public_copy_sha256": "38a28f66e4a834bfe30131a003172b1db2ee24361dd1a5de094bc9fd9bd22624",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195826_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed83/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195826_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed83/run_metadata.json",
+      "pre_redaction_sha256": "b0a657e30d37ec8f138dcf3ab7de350104511add030925bdf0c4f391b6e3686f",
+      "public_copy_sha256": "72c63479649d60fbb1b34196da8d79d33e4548cb2511af4112c576177fc62799",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195828_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195828_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed97/run_metadata.json",
+      "pre_redaction_sha256": "5a4fcd69604eadc8caa74c132ff23a4da3c59c1365396b84a7ab477718dca72c",
+      "public_copy_sha256": "a308e75c5a6cfeceb25e6eebc3f2a5c1f09599e1c31e7b903ac5a8776fd8245e",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195833_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195833_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed97/run_metadata.json",
+      "pre_redaction_sha256": "2b06f68a5651c8de0dc6aaec32b4c0a52f5afd2b49889f316e743e1c3253e485",
+      "public_copy_sha256": "e1d1c8c4c8b916945a6127c59610bf57e9153b80beb443d06a889fa6b50d72ae",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195838_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195838_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed97/run_metadata.json",
+      "pre_redaction_sha256": "374bf30d37bde4c6b883a038e7f5a2528e0b304b694a812617e1e1300b0d8efb",
+      "public_copy_sha256": "91fa90ff5cffa3f7ec173e4714ffdc2c477e695cbe68cafb96e4ea178120d7c6",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195844_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195844_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed97/run_metadata.json",
+      "pre_redaction_sha256": "6d8b7404b19b79dea4a7b3d4596088fed6ad31e54ae0eed53ab3e878d31bfc2f",
+      "public_copy_sha256": "275c98ed0c59818b3b7facfe480dce5f6cfed8c42178549f9225f0ea59e1c88a",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195851_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195851_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed97/run_metadata.json",
+      "pre_redaction_sha256": "4dc5cb8f1bfe5a52d47104eb752452db1da012f0f535421b63cad33948cd3b5d",
+      "public_copy_sha256": "b958ba2754f31066c7ebd0640696a8f65b2dc30963d800b440c1dd10176931c0",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195855_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195855_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed97/run_metadata.json",
+      "pre_redaction_sha256": "a42f1808a713cea3aeb433be23b1d28e9f91c564b7f89903f18530c30b9ed464",
+      "public_copy_sha256": "7fb89e71d12fe39c2ddea452cea78f1de0e786872d009582407697fbdd35da66",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195902_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed97/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195902_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed97/run_metadata.json",
+      "pre_redaction_sha256": "346e1eabec2d379fb8741588c5323722fab1dcac00d5c9c989bdc6e2764c3eed",
+      "public_copy_sha256": "b8b93bdc808ca925547bdb5329c5a349efb5a75cb196098f65bb368f8de61a79",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195903_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195903_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_seed109/run_metadata.json",
+      "pre_redaction_sha256": "28d6898647c93b0c81c9beae00782590a528a5230e1c09461f6741caf62042e2",
+      "public_copy_sha256": "dea4d0190c62d9d74dfe4b172ce1e2c9232a2fd4b69ea358a06647cfa89f7d3c",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195908_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195908_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_ring_seed109/run_metadata.json",
+      "pre_redaction_sha256": "f4ab91de8766d399554cde0cfcbf465609a721822a5d5c5e6e7259bc7b7bf22c",
+      "public_copy_sha256": "1cac912bdaff198267949641d6b62e0af87d6c8f716a13029d89c2885de4b860",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195913_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195913_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_all_to_all_seed109/run_metadata.json",
+      "pre_redaction_sha256": "ef4242f2e670ad52c549b11774b1a82d3510b0c720d20ce721f2642b3fa0cc16",
+      "public_copy_sha256": "69ce9112c3990d7cfecff9e898f0e914f6c7a350a6fa19f46be7bb051f9514ce",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195921_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195921_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_linear_chain_seed109/run_metadata.json",
+      "pre_redaction_sha256": "67f9f1458449b2451c852d47f7dde9e40c27762caf9b2cc01aa915ca00187661",
+      "public_copy_sha256": "14e594bccb2cc45eeb21d09c45d6b0921896639a3b1581c693eb5fb935f30676",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195926_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195926_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_grammar_seed109/run_metadata.json",
+      "pre_redaction_sha256": "99d6bfa2f51b1358ed2a62a5afd93dc1812138f8de2e74b323f7d34eb4a39c3f",
+      "public_copy_sha256": "7787d53c5addec713442a572b42056438bb5bdad61349426b48f39768782a1c3",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195930_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195930_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_no_entanglement_seed109/run_metadata.json",
+      "pre_redaction_sha256": "da01c11c2d7729f95b08c8812ffa6d3a0637ff4a82fb1341bad13137b6e1e99e",
+      "public_copy_sha256": "dc4daa8af8183a5f1de88b8e2244a642c559258841712ceb65d6979ec16b88ad",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195938_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed109/environment_snapshot.txt",
+      "pre_redaction_sha256": "fe91bcab28784508138219f20a7bcd98bf81c8e348f4878080f52c888dbbd193",
+      "public_copy_sha256": "563611ac56cf476178f2d843aa8c6cad0759f71ff4b953c3e50498872f277d01",
+      "redaction_count": 1
+    },
+    {
+      "path": "inputs/stage6d_frozen/results/stage6d/runs/topology/20260523_195938_qnlpbench_r_stage6d_topology_latent_primitive_sequence_qfc_random_01_random_label_seed109/run_metadata.json",
+      "pre_redaction_sha256": "94c8049523a543dc9fbdd0e8ab494d56c17ed45b88947aa9cfad5e22d7da18e4",
+      "public_copy_sha256": "b79c85a53f743707c8b12bed9395968acd8d9e92d6144b9b943a765818599590",
+      "redaction_count": 1
+    },
+    {
+      "path": "results/end_to_end_seed11/environment.json",
+      "pre_redaction_sha256": "624f781871a0a6f4e44b6b2d0501026ac31006a0078a4195a677ef43564de7d6",
+      "public_copy_sha256": "2124686d02c54e2e7fe50f1b1527ce70f976df785de16a93f94757e6d5d3838a",
+      "redaction_count": 1
+    }
+  ],
+  "scope": "Public extracted metadata only. Model inputs, labels, predictions, kernels, checkpoints, RNG states, and numerical results are unchanged."
+}

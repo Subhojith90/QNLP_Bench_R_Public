@@ -1,0 +1,14 @@
+{
+  "bootstrap_resamples": 10000,
+  "claim_boundary": "Replication evidence only. Any quantum interpretation must be conditional on paired uncertainty and comparison against strong classical baselines.",
+  "kernel_present": true,
+  "n_classical_seed_rows": 80,
+  "n_topology_seed_rows": 70,
+  "n_total_direct_rows": 150,
+  "selected_regime": {
+    "latent_dim": 4,
+    "min_abs_margin": 0.1,
+    "n_samples": 1800
+  },
+  "stage": "Stage 6D - Focused Ten-Seed Latent-Compositional Replication"
+}

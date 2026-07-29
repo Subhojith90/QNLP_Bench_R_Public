@@ -1,0 +1,101 @@
+name: Stage 8A portable seed-11 replay
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-lock-seed11-replay:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    steps:
+      - name: Check out the audited source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Record independent host and source
+        shell: bash
+        run: |
+          mkdir -p independent-replay-evidence
+          git rev-parse HEAD > independent-replay-evidence/source-commit.txt
+          git status --short > independent-replay-evidence/source-status.txt
+          uname -a > independent-replay-evidence/host-uname.txt
+          cat /etc/os-release > independent-replay-evidence/host-os-release.txt
+          docker version > independent-replay-evidence/docker-version.txt
+          docker info > independent-replay-evidence/docker-info.txt
+
+      - name: Build the digest-pinned image
+        id: build
+        shell: bash
+        run: |
+          set +e
+          docker build --pull=false \
+            --iidfile independent-replay-evidence/built-image-id.txt \
+            -t qnlpbench-r:stage8a . \
+            > independent-replay-evidence/docker-build.stdout.txt \
+            2> independent-replay-evidence/docker-build.stderr.txt
+          status=$?
+          echo "$status" > independent-replay-evidence/docker-build-exit-status.txt
+          if [ "$status" -eq 0 ]; then
+            docker image inspect qnlpbench-r:stage8a \
+              > independent-replay-evidence/built-image-inspect.json
+            docker save qnlpbench-r:stage8a |
+              sha256sum > independent-replay-evidence/built-image-archive.sha256
+          fi
+          exit "$status"
+
+      - name: Run the complete automated test suite
+        id: tests
+        if: steps.build.outcome == 'success'
+        shell: bash
+        run: |
+          set +e
+          docker run --rm qnlpbench-r:stage8a \
+            python -m pytest tests -q \
+            > independent-replay-evidence/tests.stdout.txt \
+            2> independent-replay-evidence/tests.stderr.txt
+          status=$?
+          echo "$status" > independent-replay-evidence/tests-exit-status.txt
+          exit "$status"
+
+      - name: Run the instrumented seed-11 replay
+        id: replay
+        if: always() && steps.build.outcome == 'success'
+        shell: bash
+        run: |
+          mkdir -p independent-replay-evidence/replay
+          set +e
+          docker run --rm \
+            -e QNLPBENCH_HOST_LABEL=github-actions-independent-host \
+            -v "$PWD/independent-replay-evidence/replay:/evidence" \
+            qnlpbench-r:stage8a \
+            python scripts/run_clean_end_to_end_seed11.py --output /evidence \
+            > independent-replay-evidence/replay.stdout.txt \
+            2> independent-replay-evidence/replay.stderr.txt
+          status=$?
+          echo "$status" > independent-replay-evidence/replay-exit-status.txt
+          exit "$status"
+
+      - name: Hash the complete evidence record
+        if: always()
+        shell: bash
+        run: |
+          (
+            cd independent-replay-evidence
+            find . -type f \
+              ! -name EVIDENCE_SHA256SUMS.txt \
+              -print0 |
+              sort -z |
+              xargs -0 sha256sum \
+              > EVIDENCE_SHA256SUMS.txt
+          )
+
+      - name: Upload independent replay evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: stage8a-independent-replay-${{ github.sha }}
+          path: independent-replay-evidence
+          if-no-files-found: error
+          retention-days: 90

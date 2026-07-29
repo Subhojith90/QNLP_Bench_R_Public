@@ -1,0 +1,58 @@
+stage_label: Stage 6E-A - Learned Classical Representation Kernel Screening Challenge
+stage6d_results_dir: results/stage6d/runs
+output_dir: results/stage6e
+figures_dir: figures
+feature_set: latent_primitive_sequence
+splits:
+- test
+- ood_composition
+- ood_depth
+qfc_models:
+- qfc_all_to_all
+- qfc_random_01
+- qfc_random_01_random_label
+mlp_model: sequence_mlp_256x3
+train_sample_caps:
+- 128
+eval_sample_caps:
+- 128
+kernel_sample_strategy: stratified
+c_values:
+- 0.1
+- 1.0
+- 10.0
+- 100.0
+classical_kernel_families:
+  raw:
+  - linear
+  - rbf
+  - poly
+  mlp_hidden:
+  - linear
+  - cosine
+  - rbf
+  mlp_logits:
+  - linear
+  - rbf
+  polynomial_interactions:
+  - linear
+  random_fourier:
+  - linear
+  tree_proximity:
+  - extra_trees
+gamma_multipliers:
+- 0.5
+- 1.0
+- 2.0
+poly_degrees:
+- 2
+rff_components:
+- 128
+tree_estimators: 100
+bootstrap_resamples: 10000
+random_seed: 6113
+claim_boundary: Screening diagnostic only. A positive result requires a larger-cap
+  Stage 6E-B confirmation before supervisor submission.
+screening_note: Computationally focused ten-seed learned-representation screen at
+  matched cap 128. If QFC survives this challenge, Stage 6E-B confirms finalists at
+  larger/full caps.

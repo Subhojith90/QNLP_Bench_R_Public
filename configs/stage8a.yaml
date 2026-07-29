@@ -1,0 +1,56 @@
+stage: 8A
+protocol_status: frozen_before_results
+semantic_seed: 314159
+seeds: [11, 23, 37, 41, 53, 67, 79, 83, 97, 109]
+topologies: [qfc_all_to_all, qfc_random_01]
+splits: [test, ood_composition, ood_depth]
+sample_cap: 128
+sampling:
+  strategy: stratified
+  train_offset: 8101
+  validation_offset: 8103
+  split_base_offset: 8200
+svm_c: [0.1, 1.0, 10.0, 100.0]
+generic_kernels:
+  families: [linear, cosine, rbf, laplacian, poly]
+  gamma_multipliers: [0.5, 1.0, 2.0]
+  polynomial_degrees: [2]
+learned_kernels:
+  mlp_model: sequence_mlp_256x3
+  families:
+    raw: [linear, rbf, poly]
+    mlp_hidden: [linear, cosine, rbf]
+    mlp_logits: [linear, rbf]
+    polynomial_interactions: [linear]
+    random_fourier: [linear]
+    tree_proximity: [extra_trees]
+  gamma_multipliers: [0.5, 1.0, 2.0]
+  polynomial_degrees: [2]
+  rff_components: [128]
+  tree_estimators: 100
+qfc_training:
+  max_epochs: 80
+  batch_size: 128
+  learning_rate: 0.003
+  weight_decay: 0.0001
+  early_stopping_patience: 12
+  gradient_clip_norm: 1.0
+  deterministic_cpu: true
+  shuffled_label_offset: 90417
+tensor_train:
+  bond_dimensions: [2, 4, 8, 16, 32]
+  max_epochs: 120
+  batch_size: 128
+  learning_rate: 0.003
+  weight_decay: 0.0001
+  early_stopping_patience: 20
+  gradient_clip_norm: 1.0
+  kernel_gamma_multipliers: [0.5, 1.0, 2.0]
+bootstrap:
+  resamples: 10000
+  confidence: 0.95
+  seed: 8119
+diagnostics:
+  eigenvalue_tolerance: 1.0e-10
+  condition_floor: 1.0e-12
+end_to_end_seed: 11

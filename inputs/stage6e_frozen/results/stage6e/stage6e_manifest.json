@@ -1,0 +1,22 @@
+{
+  "claim_boundary": "Screening diagnostic only. A positive result requires a larger-cap Stage 6E-B confirmation before supervisor submission.",
+  "config": "configs/stage6e_learned_kernel.yaml",
+  "models": [
+    "qfc_all_to_all",
+    "qfc_random_01",
+    "qfc_random_01_random_label"
+  ],
+  "n_rows": 210,
+  "n_sample_indices": 5120,
+  "n_seeds": 10,
+  "n_selection_candidates": 1000,
+  "output_files": [
+    "stage6e_kernel_classifier_long.csv",
+    "stage6e_kernel_selection_candidates.csv",
+    "stage6e_sampled_indices.csv",
+    "stage6e_seed_averaged_paired_deltas.csv",
+    "stage6e_learned_kernel_challenge_summary.csv"
+  ],
+  "stage": "Stage 6E-A - Learned Classical Representation Kernel Screening Challenge",
+  "stage6d_results_dir": "results/stage6d/runs"
+}

@@ -1,0 +1,103 @@
+{
+  "config_path": "results/stage6d/configs/topology/latent_primitive_sequence.yaml",
+  "cuda_memory_summary_end": {
+    "cuda_available": false
+  },
+  "dataset_summary": {
+    "feature_dim": 49,
+    "label_column": "label",
+    "n_ood": 360,
+    "n_ood_composition": 180,
+    "n_ood_depth": 180,
+    "n_test": 360,
+    "n_train": 810,
+    "n_val": 270
+  },
+  "device_info": {
+    "cpu_count": 8,
+    "cuda_available": false,
+    "device": "cpu",
+    "gpu_name": null,
+    "gpu_total_memory_gb": null,
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "python_version": "3.12.7",
+    "ram_gb": 16.0,
+    "torch_version": "2.12.0"
+  },
+  "elapsed_seconds": 6.371308040994336,
+  "environment": {
+    "command": "scripts/run_feature_ablation.py --config configs/stage6d_topologies.yaml",
+    "hostname": "redacted-public-host",
+    "packages": {
+      "matplotlib": "3.10.9",
+      "numpy": "2.4.6",
+      "pandas": "3.0.3",
+      "sklearn": "1.8.0",
+      "torch": "2.12.0",
+      "yaml": "6.0.3"
+    },
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]"
+  },
+  "experiment_name": "qnlpbench_r_stage6d_topology_latent_primitive_sequence",
+  "model_name": "qfc_grammar",
+  "model_summary": {
+    "architecture": "grammar_structured_qfc",
+    "bare_statevector_memory_gb_per_sample_complex64": 4.76837158203125e-07,
+    "data_reuploading": true,
+    "depth_proxy": 6,
+    "entanglement": "none",
+    "grammar_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "model_type": "grammar_structured_quantum_feature",
+    "n_layers": 2,
+    "n_qubits": 6,
+    "parameter_count": 686,
+    "primitive_role_encoding_active": true,
+    "role_feature_counts": {
+      "distractor_sequence": 24,
+      "negation": 1,
+      "object": 8,
+      "subject": 8,
+      "verb": 8
+    },
+    "single_qubit_rotation_count_proxy": 24,
+    "state_dim": 64,
+    "structured_entanglement": "grammar",
+    "two_qubit_gate_count_proxy": 12
+  },
+  "model_type": "grammar_structured_quantum_feature",
+  "project_version": "0.1.0",
+  "run_group": "stage6d_topology",
+  "seed": 83,
+  "start_time": "2026-05-23T19:58:13.369702",
+  "status": "completed",
+  "train_info": {
+    "best_epoch": 52,
+    "best_val_balanced_accuracy": 0.8101762864517545
+  }
+}

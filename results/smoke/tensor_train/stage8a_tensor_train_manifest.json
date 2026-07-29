@@ -1,0 +1,18 @@
+{
+  "analysis": "tensor_train_baseline",
+  "bond_dimension_grid": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "sample_cap": 128,
+  "seed_level_sha256": "36f45433a4db0f626b5dc5a079f3ab2dce91e0b955292692fad3ef2b37fee2fa",
+  "seeds": [
+    11
+  ],
+  "selection_metric": "validation_balanced_accuracy",
+  "selection_sha256": "0f3b28f35257cebed19d11a2464358e971e909e9bda7a0fa4dc1a092e4031705",
+  "stage": "8A"
+}

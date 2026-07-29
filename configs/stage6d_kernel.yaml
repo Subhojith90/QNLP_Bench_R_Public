@@ -1,0 +1,15 @@
+stage_label: Stage 6D - Ten-Seed Latent Semantic Predictive Quantum-Kernel Replication
+results_dirs: [results/stage6d/runs/topology]
+output_dir: results/stage6d/kernel
+figures_dir: figures
+splits: [test, ood_composition, ood_depth]
+# Focused cap sensitivity: avoids duplicating a very large pilot grid while checking finite-sample dependence.
+train_sample_caps: [256, full]
+eval_sample_caps: [256, full]
+kernel_sample_strategy: stratified
+c_values: [0.1, 1.0, 10.0, 100.0]
+classical_kernels: [linear, cosine, rbf, laplacian, poly]
+gamma_multipliers: [0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0]
+poly_degrees: [2, 3, 4]
+feature_sets_to_report: [latent_primitive_sequence]
+max_runs: 1000

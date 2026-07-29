@@ -1,0 +1,20 @@
+{
+  "all_pairs_hash_verified": true,
+  "analysis": "exact_initialization_matched_controls",
+  "checkpoint_manifest_sha256": "4c49283c70beae98ac883ea2deab19e06c93691d935994dba9b0633792b5ce60",
+  "one_to_one_pairs": 20,
+  "result_sha256": "86cc40d1ba3f0f425571bcdd17b67feb1cf1b7d1a6f8bca13bb48b2ea9072ddf",
+  "seeds": [
+    11,
+    23,
+    37,
+    41,
+    53,
+    67,
+    79,
+    83,
+    97,
+    109
+  ],
+  "stage": "8A"
+}

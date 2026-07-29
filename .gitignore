@@ -1,0 +1,30 @@
+# Private manuscript workspace and preserved manuscript exports.
+/Manuscript/
+/Archive/Manuscript_Pre_Overleaf_Canonical_*/
+/Archive/Overleaf_Export_*/
+/Archive/Manuscript_Build_Logs_*/
+
+# Common LaTeX build products if a source tree is compiled elsewhere.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Local operating-system metadata.
+.DS_Store
+
+# Python environments and generated caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

@@ -1,0 +1,73 @@
+experiment:
+  name: qnlpbench_r_stage6d_topology_latent_primitive_sequence
+  run_group: stage6d_topology
+  description: Calibrated latent d4 margin 0.10 primitive-input representation.
+  stage_prefix: qnlpbench_r_stage6d_topology
+  feature_ablation: latent_primitive_sequence
+  feature_set: primitive_slot_sequence
+seed_list:
+- 23
+device:
+  preference: auto
+  require_cuda: false
+dataset:
+  name: latent_compositional_semantics
+  n_samples: 1800
+  semantic_seed: 314159
+  latent_dim: 4
+  feature_set: primitive_slot_sequence
+  validation_fraction: 0.15
+  test_fraction: 0.2
+  ood_composition_fraction: 0.1
+  ood_depth_fraction: 0.1
+  max_modifiers: 4
+  ood_depth_min: 3
+  min_abs_margin: 0.1
+  label_noise: 0.0
+  unique_examples: true
+models:
+- name: qfc_all_to_all
+  type: grammar_structured_quantum_feature
+  n_qubits: 6
+  n_layers: 2
+  structured_entanglement: all_to_all
+  data_reuploading: true
+training:
+  max_epochs: 80
+  batch_size: 128
+  learning_rate: 0.003
+  weight_decay: 0.0001
+  early_stopping_patience: 12
+  gradient_clip_norm: 1.0
+  mixed_precision: false
+  num_workers: 0
+  gradient_accumulation_steps: 1
+evaluation:
+  batch_size: 256
+  splits:
+  - train
+  - val
+  - test
+  - ood
+  - ood_composition
+  - ood_depth
+  bootstrap_samples: 1000
+  quantum_metrics: true
+  kernel_sampling_strategy: stratified
+  kernel_sample_cap: 256
+  robustness:
+    enabled: false
+    variants: []
+    severities: []
+    shots: []
+output:
+  base_dir: results/stage6d/runs/topology
+  save_checkpoints: true
+  continue_on_error: false
+logging:
+  level: INFO
+reproducibility:
+  deterministic_torch: true
+  save_environment: true
+_config_path: results/stage6d/configs/topology/latent_primitive_sequence.yaml
+seed: 23

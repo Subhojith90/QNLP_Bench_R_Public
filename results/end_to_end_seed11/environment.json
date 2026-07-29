@@ -1,0 +1,11 @@
+{
+  "cpu_count": 8,
+  "device": "cpu",
+  "hostname": "redacted-public-host",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.1 (main, Dec  3 2024, 17:59:52) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "scikit_learn": "1.8.0",
+  "torch": "2.12.0"
+}

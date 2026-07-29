@@ -1,0 +1,3 @@
+topology,n_seeds,qfc_learned_centered_alignment,qfc_tensor_train_centered_alignment,exact_training_kernel_displacement,exact_initial_trained_centered_alignment
+qfc_all_to_all,10,0.2789658027659252,0.19315207000047976,0.7270534764020504,0.5322982247092063
+qfc_random_01,10,0.2687564243913353,0.1819734375864997,0.7494506038579277,0.5297432845192899
