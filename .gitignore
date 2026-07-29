@@ -17,6 +17,10 @@
 *.synctex.gz
 *.toc
 
+# The final replay's two logs are part of the audited 53-file evidence record.
+!results/final_public_commit_replay_1_1/**/replay/command_transcript.log
+!results/final_public_commit_replay_1_1/**/replay/failure.log
+
 # Local operating-system metadata.
 .DS_Store
 

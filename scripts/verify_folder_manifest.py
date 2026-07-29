@@ -28,7 +28,16 @@ def publishable_paths() -> set[str]:
         if Path(top_level.stdout.strip()).resolve() != ROOT.resolve():
             raise subprocess.CalledProcessError(1, top_level.args)
         result = subprocess.run(
-            ["git", "-C", str(ROOT), "ls-files", "-z"],
+            [
+                "git",
+                "-C",
+                str(ROOT),
+                "ls-files",
+                "-z",
+                "--cached",
+                "--others",
+                "--exclude-standard",
+            ],
             check=True,
             capture_output=True,
         )
@@ -53,7 +62,10 @@ def publishable_paths() -> set[str]:
             or ".pytest_cache" in relative.parts
             or any(part.endswith(".egg-info") for part in relative.parts)
             or path.suffix in {".pyc", ".pyo"}
-            or path.suffix == ".log"
+            or (
+                path.suffix == ".log"
+                and "final_public_commit_replay_1_1" not in relative.parts
+            )
         ):
             continue
         paths.add(relative.as_posix())

@@ -1,0 +1,45 @@
+{
+  "audit_float_absolute_tolerance": 2e-15,
+  "audit_float_differences": {
+    "audit_latent_margin": {
+      "maximum_absolute_difference": 8.049116928532385e-16,
+      "within_tolerance": true
+    },
+    "audit_latent_score": {
+      "maximum_absolute_difference": 7.216449660063518e-16,
+      "within_tolerance": true
+    }
+  },
+  "audit_float_relative_tolerance": 0.0,
+  "audit_floats_within_tolerance": true,
+  "audit_only_float_columns": [
+    "audit_latent_score",
+    "audit_latent_margin"
+  ],
+  "bytewise_hash_match": false,
+  "frozen_csv": "/work/inputs/stage6d_frozen/results/stage6d/runs/classical/20260523_195144_qnlpbench_r_stage6d_classical_latent_primitive_sequence_sequence_mlp_256x3_seed11/data/dataset.csv",
+  "frozen_hash_preserved": true,
+  "label_columns": [
+    "label",
+    "clean_label"
+  ],
+  "labels_exact": true,
+  "model_visible_feature_count": 49,
+  "model_visible_features_exact": true,
+  "nonfloating_metadata_exact": true,
+  "observed_frozen_sha256": "9a81a615a82537d3fa492c3abe001b0723ed2dd696ada0fdda9e9ca45b5ff80b",
+  "policy": "stage8a_regenerated_data_identity_v2",
+  "regenerated_csv": "/evidence/generated_dataset/data/dataset.csv",
+  "regenerated_sha256": "c84343e788565c4284277deb70c17d9136bcd3c7ebce69c3ef53477f10b1f138",
+  "registered_frozen_sha256": "9a81a615a82537d3fa492c3abe001b0723ed2dd696ada0fdda9e9ca45b5ff80b",
+  "required_columns_present": true,
+  "row_count_exact": true,
+  "row_order_columns": [
+    "id",
+    "text",
+    "split"
+  ],
+  "row_order_exact": true,
+  "schema_exact": true,
+  "status": "pass"
+}

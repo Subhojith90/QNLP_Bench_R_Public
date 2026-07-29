@@ -32,7 +32,7 @@ Internal clean seed-11 reconstruction:
 - numerical comparison: results/end_to_end_seed11/end_to_end_numerical_comparison.csv
 - report: results/end_to_end_seed11/end_to_end_report.json
 
-Independent cross-platform seed-11 replay:
+First preserved independent cross-platform seed-11 replay:
 - environment: digest-pinned Ubuntu Linux x86-64 OCI, Python 3.12.7,
   PyTorch 2.12.0+cu130
 - GitHub Actions run: 30359998043
@@ -59,12 +59,51 @@ Independent cross-platform seed-11 replay:
 - authoritative evidence:
   results/independent_exact_lock_seed11/stage8a-independent-replay-42202b13.zip
 
-The checks above verify the current registered Stage 8A analysis and source tree
-while disclosing that complete MLP retraining is not tolerance-exact across the
-preserved macOS ARM64 reference and Linux x86-64 verification runtimes. Because
-the preserved replay used PyTorch thread counts 1/2 and the final public script
-was later hardened to 1/1, the observed divergence is not attributed uniquely
-to processor architecture.
+Final public-commit independent Linux replay:
+- environment: digest-pinned Ubuntu 24.04 Linux x86-64 OCI, Python 3.12.7,
+  PyTorch 2.12.0+cu130
+- source commit: 1072dbb46a97e59cd736a93c724cd355b67b24b9
+- tags resolving to the source commit: v1.0.0 and v1.0.1
+- GitHub Actions run: 30433905960
+- GitHub Actions job: 90517168721
+- artifact ID: 8716699380
+- original downloaded artifact SHA-256:
+  7bf3b72efca74ac2268e5f09481f399109535afb910bc473d537d8da88579b1e
+- artifact size: 942191 bytes
+- PyTorch intra-op/inter-op thread counts: 1/1
+- built image ID:
+  sha256:cb393cb41b9a62f6eec718deda797f18c75f4324bf7c596f988e11617d386f3bf
+- built image archive SHA-256:
+  8d24a48c5583636b885f2fc93ffe03d7d8b65636d7bc5166a614bc9e365ce11
+- container build: pass
+- automated tests: 36 passed
+- strict dataset-identity gate: pass
+- QFC and generic-kernel pathways: exact
+- tensor-train pathway: maximum absolute discrepancy 5.55e-17
+- learned MLP pathway: failed unchanged 1e-12 numerical gate
+- MLP initialization and complete minibatch order: exact
+- first divergence: epoch-1 training loss, absolute difference 3.09e-9
+- best epoch: 44 in the reference and 67 in the Linux replay
+- selected learned kernel: linear, C=1 in the reference; rbf_gamma_x1,
+  C=0.1 in the replay
+- maximum balanced-accuracy discrepancy: 0.027027027027026973
+- tolerance relaxation: none
+- ten-seed conclusion check: no QFC-minus-learned mean sign changed; maximum
+  ten-seed mean shift 0.002702702702702696
+- downloaded artifact:
+  results/final_public_commit_replay_1_1/
+- extraction-relative evidence manifest: 53/53 hashes pass without path
+  rewriting
 
-They do not resolve author affiliations, ORCIDs, funding acknowledgements,
-contributor-role statements, repository deposition, or archive DOI assignment.
+The checks above verify the registered Stage 8A analysis and source tree while
+disclosing that complete MLP retraining is not tolerance-exact across the
+macOS ARM64 reference and Linux x86-64 verification runtimes. Both Linux
+replays preserve the central negative-result conclusion. The observed
+divergence is classified as unresolved cross-platform/runtime numerical
+sensitivity and is not attributed uniquely to processor architecture.
+
+Author affiliations, ORCIDs, repository links, and the archive DOI are recorded
+in the synchronized release documentation. Final written approval of the
+CRediT allocation, funding statement, competing-interest declaration,
+AI-assisted-tool disclosure, author order, and submission remains a separate
+author-controlled gate.
