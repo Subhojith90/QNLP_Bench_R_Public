@@ -20,5 +20,17 @@
   "initialization_exact_match": true,
   "minibatch_order_exact_match": true,
   "maximum_absolute_metric_error": 0.011011011011010985,
-  "decision": "diagnostic closure complete; numerical replay not passed"
+  "decision": "diagnostic closure complete; numerical replay not passed",
+  "subsequent_final_public_commit_replay": {
+    "source_commit": "1072dbb46a97e59cd736a93c724cd355b67b24b9",
+    "workflow_run_id": 30433905960,
+    "workflow_job_id": 90517168721,
+    "artifact_id": 8716699380,
+    "artifact_sha256": "7bf3b72efca74ac2268e5f09481f399109535afb910bc473d537d8da88579b1e",
+    "torch_intra_op_threads": 1,
+    "torch_inter_op_threads": 1,
+    "maximum_absolute_metric_error": 0.027027027027026973,
+    "ten_seed_mean_signs_unchanged": true,
+    "evidence_directory": "results/final_public_commit_replay_1_1"
+  }
 }

@@ -1,0 +1,75 @@
+{
+  "early_stopping_and_checkpoint": {
+    "observed_train_info": {
+      "best_epoch": 67,
+      "best_val_balanced_accuracy": 0.8285714285714285
+    },
+    "observed_trained_state_sha256": "10db2d65ad49346cd63159baff8d28f6f391f6a5f0eaafc10c737e15ea62d530",
+    "reference_train_info": {
+      "best_epoch": 44,
+      "best_val_balanced_accuracy": 0.8090659340659341
+    },
+    "reference_trained_state_sha256": "890b3113c547b8326c52b824e1d64acac81b864bd50d508934452356be9c41f1",
+    "trained_state_exact_match": false
+  },
+  "initialization": {
+    "exact_match": true,
+    "observed_sha256": "e6b1af8834687f965dea156ccb1cf03be67b6f85086c1f642f0ae7bfbcf9b158",
+    "registered_sha256": "e6b1af8834687f965dea156ccb1cf03be67b6f85086c1f642f0ae7bfbcf9b158"
+  },
+  "interpretation": "When initialization and minibatch order match but the training history diverges, the first unresolved boundary is floating-point model arithmetic or its backward/optimizer path. Later early-stopping, checkpoint, and learned-kernel differences are downstream.",
+  "learned_kernel_selection": {
+    "exact_match": false,
+    "observed": {
+      "C": 0.1,
+      "c_order": 0,
+      "candidate_order": 8,
+      "kernel_family": "rbf",
+      "kernel_name": "rbf_gamma_x1",
+      "parameters_json": "{\"gamma\": 0.0032815326310808484, \"gamma_multiplier\": 1.0}",
+      "source": "mlp_hidden",
+      "validation_balanced_accuracy": 0.8284457478005866
+    },
+    "reference": {
+      "C": 1.0,
+      "kernel_name": "linear",
+      "source": "mlp_hidden"
+    }
+  },
+  "minibatch_order": {
+    "epochs_hashed": 56,
+    "exact_match": true,
+    "observed_sha256": "a9b1f0c83f1348e8ad100e648236d73b4bdc67ebbe982fbb23d94d54b7ad3bcb",
+    "registered_sha256": "a9b1f0c83f1348e8ad100e648236d73b4bdc67ebbe982fbb23d94d54b7ad3bcb"
+  },
+  "reference_environment": {
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "python_version": "3.12.7",
+    "torch_version": "2.12.0"
+  },
+  "training_history": {
+    "first_divergence_at_1e-12": {
+      "absolute_difference": 3.0906112113981976e-09,
+      "column": "train_loss",
+      "epoch": 1,
+      "expected": 0.6642469884436808,
+      "observed": 0.664246991534292
+    },
+    "maximum_absolute_difference_by_column": {
+      "epoch": 0.0,
+      "gradient_norm": 0.9847059114705249,
+      "train_loss": 0.017488361735264805,
+      "val_accuracy": 0.03703703703703709,
+      "val_balanced_accuracy": 0.03681318681318679,
+      "val_brier": 0.04061276772070149,
+      "val_ece_10": 0.020206085379026406,
+      "val_macro_f1": 0.0370615284708371,
+      "val_macro_precision": 0.03639891740037071,
+      "val_macro_recall": 0.03681318681318679,
+      "val_nll": 0.32987520635185996,
+      "val_roc_auc": 0.015329670329670142
+    },
+    "observed_rows": 79,
+    "reference_rows": 56
+  }
+}

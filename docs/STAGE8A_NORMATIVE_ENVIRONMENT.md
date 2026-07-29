@@ -29,19 +29,23 @@ Linux x86-64 verification environment.
   explicitly pinned to `1/1`
 - Preserved independent replay: PyTorch intra-op/inter-op counts were `1/2`;
   the explicit `1/1` hardening was introduced afterward
+- Final public-commit replay: PyTorch intra-op/inter-op counts were verified as
+  `1/1` in GitHub Actions run `30433905960` at source commit
+  `1072dbb46a97e59cd736a93c724cd355b67b24b9`
 - Python hash randomization at interpreter startup: `PYTHONHASHSEED=0` from the
   OCI environment
 
 The image build does not upgrade package-management tools and installs the local
 package without dependency resolution. Consequently, `Dockerfile`,
 `requirements-lock.txt`, and `pyproject.toml` describe one consistent package
-set. The container build, 36-test suite, dataset-identity gate, QFC pathway and
-generic-kernel pathway passed; tensor-train results agreed within `5.55e-17`.
-The learned MLP pathway exhibited disclosed cross-platform/runtime numerical
-sensitivity, with a maximum balanced-accuracy difference of
-`0.011011011011010985`. The preserved replay cannot attribute this difference
-uniquely to processor architecture because it predates the final `1/1` PyTorch
-thread hardening.
+set. In both independent Linux replays, the container build, 36-test suite,
+dataset-identity gate, QFC pathway and generic-kernel pathway passed;
+tensor-train results agreed within `5.55e-17`. The learned MLP pathway exhibited
+disclosed cross-platform/runtime numerical sensitivity. The maximum
+balanced-accuracy differences were `0.011011011011010985` in the first
+preserved `1/2` replay and `0.027027027027026973` in the final public-commit
+`1/1` replay. Neither replay establishes tolerance-exact cross-platform MLP
+training or isolates processor architecture as the cause.
 
 ## Developer environment
 
@@ -75,3 +79,10 @@ The immutable ZIP
 is the authoritative container for the original replay log files. The extracted
 repository view intentionally omits ignored `.log` files; all other extracted
 evidence and the ZIP checksum are preserved.
+
+The final downloaded GitHub Actions artifact and its complete extracted
+contents are stored under `results/final_public_commit_replay_1_1/`. Its
+original ZIP SHA-256 is
+`7bf3b72efca74ac2268e5f09481f399109535afb910bc473d537d8da88579b1e`;
+all 53 entries in the extraction-relative evidence manifest verify without path
+rewriting.

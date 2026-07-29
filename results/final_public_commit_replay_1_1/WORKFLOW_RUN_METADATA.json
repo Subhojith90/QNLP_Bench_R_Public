@@ -1,0 +1,31 @@
+{
+  "repository": "https://github.com/Subhojith90/QNLP_Bench_R_Public",
+  "workflow_run_id": 30433905960,
+  "workflow_run_url": "https://github.com/Subhojith90/QNLP_Bench_R_Public/actions/runs/30433905960",
+  "workflow_job_id": 90517168721,
+  "source_commit": "1072dbb46a97e59cd736a93c724cd355b67b24b9",
+  "workflow": ".github/workflows/stage8a-exact-lock-replay.yml",
+  "artifact_id": 8716699380,
+  "artifact_name": "stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9",
+  "artifact_size_bytes": 942191,
+  "artifact_sha256": "7bf3b72efca74ac2268e5f09481f399109535afb910bc473d537d8da88579b1e",
+  "built_image_id": "sha256:cb393cb41b9a62f6eec718deda797f18c75f4324bf7c596f988e11617d386f3bf",
+  "built_image_archive_sha256": "8d24a48c5583636b885f2fc93ffe03d7d8b65636d7bc5166a614bc9e365ce11",
+  "torch_num_threads": 1,
+  "torch_num_interop_threads": 1,
+  "container_build": "pass",
+  "automated_tests": {
+    "status": "pass",
+    "count": 36
+  },
+  "data_identity_gate": "pass",
+  "qfc_pathways": "exact",
+  "generic_kernel_pathway": "exact",
+  "tensor_train_maximum_absolute_error": 5.551115123125783e-17,
+  "learned_mlp_numerical_gate": "fail",
+  "learned_selection_exact_match": false,
+  "maximum_balanced_accuracy_error": 0.027027027027026973,
+  "ten_seed_qfc_minus_learned_mean_signs_unchanged": true,
+  "maximum_absolute_ten_seed_mean_shift": 0.002702702702702696,
+  "interpretation": "The final public-commit replay verifies execution, data identity, exact non-MLP QFC and generic-kernel reconstruction, tensor-train agreement to round-off, and robustness of the six reported mean-difference signs. It does not establish tolerance-exact cross-platform MLP retraining."
+}

@@ -1,8 +1,13 @@
 {
   "package": "QNLPBench-R Stage 8A scientific release",
   "manifest_scope": "All tracked publishable scientific-release files except this manifest and generated SHARE_WITH_SRINJOY delivery files",
-  "file_count": 3641,
+  "file_count": 3701,
   "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 83,
+      "sha256": "f446e8b5fc27f890120ccd3ca42d77a4ce48863254787da87c1899608b3fcd53"
+    },
     {
       "path": ".github/workflows/stage8a-exact-lock-replay.yml",
       "size_bytes": 3691,
@@ -10,8 +15,8 @@
     },
     {
       "path": ".gitignore",
-      "size_bytes": 510,
-      "sha256": "aa1b78acf3d576d776cf453e99241b44328598a1260eb2102c27d8aea79d7f56"
+      "size_bytes": 725,
+      "sha256": "ea09b664105b480aff692a641874f0dd53d3326750572f79432e6db1d191ea20"
     },
     {
       "path": "Dockerfile",
@@ -85,13 +90,13 @@
     },
     {
       "path": "docs/AUTHOR_METADATA_OPEN_ITEMS.md",
-      "size_bytes": 1738,
-      "sha256": "38709aecb44497ca79e4409fd1c39ccc5fc9441511cfd5a0c51c7c85fd9e0b89"
+      "size_bytes": 1679,
+      "sha256": "25b76fe6deee8a3576d88f7f10042035e4c548c1d606d7ff1cf51efca9889ba7"
     },
     {
       "path": "docs/STAGE8A_CLAIM_TO_EVIDENCE_MATRIX.csv",
-      "size_bytes": 4598,
-      "sha256": "01828a44ee7e98d68d6e865932bba7a999566c15ee68fe474e6399a78e39378b"
+      "size_bytes": 4731,
+      "sha256": "013a182023e0cb6eb385c3986b7b463fe44b56cde1e37c1817e10d6904c7009d"
     },
     {
       "path": "docs/STAGE8A_CONFIGURATION_HASHES.json",
@@ -105,18 +110,18 @@
     },
     {
       "path": "docs/STAGE8A_HISTORICAL_ARTIFACT_DEPOSITION.md",
-      "size_bytes": 930,
-      "sha256": "30b7bdec417da5eee354dc8092a5f8f1209e3ed0e5b018d7e8ea128c392d96a5"
+      "size_bytes": 1497,
+      "sha256": "c741ef1c7571d27eaf52df1da913950935a0dc76cabca848c289c8f48672b357"
     },
     {
       "path": "docs/STAGE8A_INDEPENDENT_REPLAY_STATUS.md",
-      "size_bytes": 4347,
-      "sha256": "30e9041b4dc54fb6cc66cee034f87b4c8a8e3a0eeb83d424f07d581d5222f576"
+      "size_bytes": 3738,
+      "sha256": "2d7e69ea727bcc8feea96fe56d3b9b92b5cbee23e800734bb62d61b457419721"
     },
     {
       "path": "docs/STAGE8A_NORMATIVE_ENVIRONMENT.md",
-      "size_bytes": 3561,
-      "sha256": "625d0c52022446c1fc08a41a590c1b167d417442d388c494ec3059c2a7876bf1"
+      "size_bytes": 4183,
+      "sha256": "3e562eb96b855ca2409bb0a3938cbd29d3df73ff16537ba53958db1267a19a93"
     },
     {
       "path": "docs/STAGE8A_PROTOCOL_AMENDMENT_001.md",
@@ -145,8 +150,8 @@
     },
     {
       "path": "docs/STAGE8A_VERIFICATION_TRANSCRIPT.txt",
-      "size_bytes": 2966,
-      "sha256": "8aa760428135ef0eac132b5efd7c844d01f2bb895926d8aa0e0f625ef4f12149"
+      "size_bytes": 4788,
+      "sha256": "4d110664079c58b1cef13cdb58e00ef98968786f6fe083fb2871bc795aa1e810"
     },
     {
       "path": "environment.yml",
@@ -16094,14 +16099,309 @@
       "sha256": "d2e821ef19a62e831e9b727149e617a9ce25a6478555b5c0208c48cb66e819cc"
     },
     {
+      "path": "results/final_public_commit_replay_1_1/FINAL_PUBLIC_COMMIT_REPLAY_STATUS.md",
+      "size_bytes": 2389,
+      "sha256": "0c5e6de51ef79edb2bace7411e00bf5386ad797404a727d7c2d37f7a40e2a8b2"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/TEN_SEED_SIGN_SENSITIVITY.csv",
+      "size_bytes": 912,
+      "sha256": "2569418b7749e7cae7ceba240e253dd83a9f21d227d67df68e657f0a9c171619"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/WORKFLOW_RUN_METADATA.json",
+      "size_bytes": 1691,
+      "sha256": "6b6358ead029f4efbe37cb80cc7bce2f8de597cb83fc5c1ad7b4524abbc64e24"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/EVIDENCE_SHA256SUMS.txt",
+      "size_bytes": 5339,
+      "sha256": "9ba05f9bfbcdaa08e71d40502a6b158c30bcf9523aca6a3e51704557a6ab1568"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/built-image-archive.sha256",
+      "size_bytes": 68,
+      "sha256": "c0eb31029885e7a2a11d000010a22b8c0037eadc5f8a836ddd6247df5599d2a2"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/built-image-id.txt",
+      "size_bytes": 71,
+      "sha256": "59190be5deac6226ba9bb8c18d4cb79451ea2d54552c135f3fad49756dec4fc3"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/built-image-inspect.json",
+      "size_bytes": 4328,
+      "sha256": "5f9acd5f63f197ed71b4003fcd59e47fbbabdb05279605dbe8840d06a1ea3c62"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/docker-build-exit-status.txt",
+      "size_bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/docker-build.stderr.txt",
+      "size_bytes": 29333,
+      "sha256": "fa1e6558919cb9d1b519d7febe60ca2b117cc4282e6ee22424eef46d65f62db7"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/docker-build.stdout.txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/docker-info.txt",
+      "size_bytes": 1491,
+      "sha256": "1ab9016a9fe1088a01230036d0a0d34372f26103f0a6c07108a1babfdf8e9b72"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/docker-version.txt",
+      "size_bytes": 769,
+      "sha256": "600f295d10beec4f05f2c06be484f9eee45f0651eb16a0d1193b2547dc872b9c"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/host-os-release.txt",
+      "size_bytes": 400,
+      "sha256": "01af466feb100306498c86aa6bad1815e33036019aa34d4362c20f374ea5c829"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/host-uname.txt",
+      "size_bytes": 121,
+      "sha256": "2656bb4fa74ca90fe830fdcb58eea0cb1e040cb58c7fb6784b715c8d511c58ec"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/command_transcript.log",
+      "size_bytes": 21316,
+      "sha256": "bc92bd2e5361418961cffd848c58d63503ccd3d489452628f8594786ffa8db32"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/deterministic_settings.json",
+      "size_bytes": 442,
+      "sha256": "86ecb4d05805cf39207f7068235572833462aca41ac7455d14545394870074ec"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/end_to_end_numerical_comparison.csv",
+      "size_bytes": 1746,
+      "sha256": "29ebc0cdf16762360768676df0cd94e1e3752a6445b001b1889bc76eb9588288"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/end_to_end_report.json",
+      "size_bytes": 1087,
+      "sha256": "e05d1581aeaf573fd296b5404b4d838f8b24043a605acffe544aa363f1221ea0"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/end_to_end_seed11_results.csv",
+      "size_bytes": 802,
+      "sha256": "ef1000f315682a037cb277e5365449a7717c4d9799dbbd4009d81b418f884f47"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/environment.json",
+      "size_bytes": 313,
+      "sha256": "9e35106a5908900c87d7ae1dbe36484fc1ff5474eeecbd727119bc8b8f4a188a"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/failure.log",
+      "size_bytes": 141,
+      "sha256": "fea4b255082f5864709baecb21ce63a1d15b39472af26ebe63f3586779149f8c"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/generated_data_identity_gate.json",
+      "size_bytes": 1563,
+      "sha256": "c95ad2a7b95bd24e5825b62bf067e4adda2fcc7de23d605f81056051ce7d433f"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/generated_dataset/data/dataset.csv",
+      "size_bytes": 650748,
+      "sha256": "c84343e788565c4284277deb70c17d9136bcd3c7ebce69c3ef53477f10b1f138"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/generated_dataset/data/dataset_manifest.json",
+      "size_bytes": 5927,
+      "sha256": "ec4b28eaea56fdafb44d551336dc237a2f7385a3838dd0d29f49092a789abc6c"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/generated_dataset/data/preprocessor.json",
+      "size_bytes": 3197,
+      "sha256": "075b318f44afc9ab7f63da46a54a01b302aa24c5dcffd8a23783e23e306813e1"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/indices/ood_composition.npy",
+      "size_bytes": 1152,
+      "sha256": "c32a83a37e7f85fd565c624de22cae4baf16b14003e6be1db8dc03fe8f3e647a"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/indices/ood_depth.npy",
+      "size_bytes": 1152,
+      "sha256": "6e6962bc1363a0580f8b27ea4af9757be193afd2034121b461c4fb6ba22d2435"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/indices/test.npy",
+      "size_bytes": 1152,
+      "sha256": "43252ae8a3c832f1622ac11d6376431adbe596b98bb9741c6569ba9fe17e7317"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/indices/train.npy",
+      "size_bytes": 1152,
+      "sha256": "aaec90a46610d90bfabab11cf6633ee104837d370abd76a62ff71239a79f801a"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/indices/val.npy",
+      "size_bytes": 1152,
+      "sha256": "d0f687e1b7d879d1152cb769303bb19024d67fbf0a0bb90fa460463ce1f98335"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/installed_packages.txt",
+      "size_bytes": 1061,
+      "sha256": "bf5db9d7decb3a691261dda29b6aa58f002552eddc1f55a8e95afc19ed0757ae"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/mlp_portability_diagnosis.json",
+      "size_bytes": 2793,
+      "sha256": "0373512eba20a43b7d42ed0696f1457b9e37694602dee424f84d8d8e89fdeab9"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/mlp_replay_trace.json",
+      "size_bytes": 1664,
+      "sha256": "ff5d764b3113707e6c1df575fb75da6fe8422c79803da2ba0f21b36a5fe14658"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/qfc_all_to_all/history.csv",
+      "size_bytes": 11988,
+      "sha256": "d6311a7e9a5145245d8d7ecf375e724c0f7a44a30fb84605f57e8f8d9e723348"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/qfc_all_to_all/model_best.pt",
+      "size_bytes": 7861,
+      "sha256": "c49b6c56c0cc34fbe7911de714d8db9d2203d45943d91831396464964b708edb"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/qfc_random_01/history.csv",
+      "size_bytes": 13961,
+      "sha256": "1fdfd9f1794744c661c91ec5fbcfd887dd197c567e79591ae26ca268c8cc030d"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/qfc_random_01/model_best.pt",
+      "size_bytes": 7861,
+      "sha256": "38ad3d38667aa162e5d2d205690c38b2997e907ed8d84e71c90a5fb19ebaa80c"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/sequence_mlp_256x3/history.csv",
+      "size_bytes": 16936,
+      "sha256": "b778d9eb6cea398328604ad25f2006df0391e8bc47e15de91c6346f7d6f9c3cc"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/sequence_mlp_256x3/model_best.pt",
+      "size_bytes": 583351,
+      "sha256": "f732cebf8624277d0e71500c34595e47cc8764a2cb9976ec1455e9d90199e954"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_16/history.csv",
+      "size_bytes": 4379,
+      "sha256": "9a63e245e99e0ce65930cbd0b88630b1e77544ed99c38517857e20c63feaeed4"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_16/model_best.pt",
+      "size_bytes": 53941,
+      "sha256": "d4ae457ee193a6526b95b6d7b328e8c2eee21146d2541139dcd8db3b690a003b"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_2/history.csv",
+      "size_bytes": 4394,
+      "sha256": "9fa7e35adddbaac4c243d84288b7107c3a2862707df93992607cf3e09848750d"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_2/model_best.pt",
+      "size_bytes": 4661,
+      "sha256": "8675300f0733bbbac8f9ea628eb4aebaad230945f9a1d05facc2dfb757e0141a"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_32/history.csv",
+      "size_bytes": 5960,
+      "sha256": "2e4a89228d8bcf618e8bc38f0e0346958ec9ee74448bbef1315aaf2dab1dd403"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_32/model_best.pt",
+      "size_bytes": 202101,
+      "sha256": "042e35757cbb9ff4c63d4a4a1bdc02045f01f467265e984211daef4c62bbb8ad"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_4/history.csv",
+      "size_bytes": 5239,
+      "sha256": "69465b500ad899354556e52892e6506e835966e5d3880c2a23e6b14c5ef59cd4"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_4/model_best.pt",
+      "size_bytes": 7285,
+      "sha256": "8c97caf163437fd88e34d14410bfb5bca7d754103e91f9fb5a0d611cc0e081e6"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_8/history.csv",
+      "size_bytes": 4623,
+      "sha256": "17e9e7e07a41ebe0c5c49cd63f86ce654d91e2bb0a744567094c2a334e725aff"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay/models/tensor_train_bond_8/model_best.pt",
+      "size_bytes": 16693,
+      "sha256": "e6dde362f7da4569846276c4d09ce0fb5f0442342c20608864b5efccbe61153b"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay-exit-status.txt",
+      "size_bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay.stderr.txt",
+      "size_bytes": 361,
+      "sha256": "79e5f43689ce43cd19cf2d35839dee2e9ce2c9e18e99ed063998ce89e425ff82"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/replay.stdout.txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/source-commit.txt",
+      "size_bytes": 41,
+      "sha256": "7d1c61976ceea72035332f8da8c5d5cb28ce13cba02a4d72889828d10b9add3b"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/source-status.txt",
+      "size_bytes": 32,
+      "sha256": "4b1861df20498cc294a79bfa1940452061cd7a326b7143ad69546f23c961ae45"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/tests-exit-status.txt",
+      "size_bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/tests.stderr.txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9/tests.stdout.txt",
+      "size_bytes": 80,
+      "sha256": "12a9a4a8915fb8d2bb5b4227220247cde267c1a0620203589fe47280d5be4a7f"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9.zip",
+      "size_bytes": 942191,
+      "sha256": "7bf3b72efca74ac2268e5f09481f399109535afb910bc473d537d8da88579b1e"
+    },
+    {
+      "path": "results/final_public_commit_replay_1_1/stage8a-independent-replay-1072dbb46a97e59cd736a93c724cd355b67b24b9.zip.sha256",
+      "size_bytes": 138,
+      "sha256": "871b3ffb95f1dd96ae564faa1bbb8ea4657f25876437dfb2c2c2801a84cfef4f"
+    },
+    {
       "path": "results/independent_exact_lock_seed11/EVIDENCE_SHA256SUMS_RELATIVE.txt",
       "size_bytes": 5339,
       "sha256": "828a20e43dbcb4f010fe1e9d95a7109a430b0215bb84a25bdf9cf419a53efcc4"
     },
     {
       "path": "results/independent_exact_lock_seed11/INDEPENDENT_REPLAY_METADATA.json",
-      "size_bytes": 934,
-      "sha256": "fc475ca7c2507e62abe396651a43cb46de1b864279ad4c6d44bb242a056b6395"
+      "size_bytes": 1478,
+      "sha256": "7775178471fd7ae046e06c23e9b3f03bab008960e13070f2058efd447fe24b24"
     },
     {
       "path": "results/independent_exact_lock_seed11/evidence/EVIDENCE_SHA256SUMS.txt",
@@ -17780,8 +18080,8 @@
     },
     {
       "path": "scripts/build_folder_manifest.py",
-      "size_bytes": 2711,
-      "sha256": "52d140dcf034b6a8bb8bd5d4547f92890e4210507fe799f8a2f815971f3a5db3"
+      "size_bytes": 3007,
+      "sha256": "e6ffa9cc451de5f1ae57b40417844aa6fde9fd063018c414f7cbc3855ef8d793"
     },
     {
       "path": "scripts/build_internal_artifact_manifest.py",
@@ -17970,8 +18270,8 @@
     },
     {
       "path": "scripts/verify_folder_manifest.py",
-      "size_bytes": 3031,
-      "sha256": "659c6214e3c11366b2b4fd4c8f2b1629120ad0c837778b1be0f0c394758d08e6"
+      "size_bytes": 3327,
+      "sha256": "13a191c147df8c55afb9b2c7364c897416dea17502125cc9d6a29f2880763844"
     },
     {
       "path": "scripts/verify_stage6e_from_package.py",
